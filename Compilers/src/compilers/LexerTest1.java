@@ -4,8 +4,8 @@ package compilers;
 import java.io.FileReader;
 import java.io.PushbackReader;
 
-import org.sablecc.sablecc.lexer.Lexer;
-import org.sablecc.sablecc.node.Token;
+import minipython.lexer.Lexer;
+import minipython.node.Token;
 
 public class LexerTest1
 {
