@@ -8,6 +8,13 @@ Helpers
 	all = [0..127]; 
 	eol = lf | cr | cr lf ;
 	not_eol = [all - [cr + lf]]; 
+	tab = 9;
+	single_quote = ''';
+	double_quote = '"';
+
+	
+	
+
 
 Tokens
 	tab = 9;
@@ -16,49 +23,77 @@ Tokens
 	mult = '*';
 	div = '/';
 	eq = '=';
+	neq = '!=';
+	deq = '==';
+	exclam = '!';
+	def = 'def';
 	l_par = '(';
 	r_par = ')';
-	comma=',';
+	l_br = '[';
+	r_br = ']';
+	comma= ',';
+	 dot = '.';
+	qmark = '?';
+	gqmark = ';';
 	if = 'if';
+	elif = 'elif';
+	else = 'else';
+	while = 'while';
+	for = 'for';
+	in = 'in';
 	print = 'print';
+	return = 'return';
 	less = '<';
 	great = '>';
 	true = 'true';
 	semi = ':';
 	false = 'false';
-	else = 'else';
-	quote = '"';
+	quote = single_quote/double_quote;
 	blank = (' ' | lf | cr);
 	line_comment = '#' not_eol* eol; 
-	number = digit+;
+	number = digit+ | (digit+ '.' digit+);
 	id = letter (letter | digit)*;
-
+	string = single_quote(letter/blank)*single_quote/double;
+    string_literal= ('"' string_char* '"');
+	integer_literal = ((digit+ '.' digit*) | (digit* '.' digit+));
+	
 Ignored Tokens
 	blank, line_comment;
 	
 Productions
-	programme = commands*;
-	
-	commands ={stat} statement|
+	   programme  = commands*;
+
+       commands ={stat} statement|
 				 {expr}expression;
-	
-	statement ={if}tab* if  comparison semi statement |
-				  {assign}tab* id eq expression |
-				  {print}tab* print expression;
-	
-	comparison = {true} true|
-					 {false} false|
-					 {lessc} [lpar]:expression less [rpar]:expression|
-					 {greatc}[lpar]:expression great [rpar]:expression;
-					 
-	expression = {multiplication} multiplication |
-					{addition} expression plus multiplication|
+
+      
+       function = {identifier} def identifier l_par ? argument r_par semi statement;
+
+       statement   ={if}tab* if comparison semi statement |
+        {while}tab* while comparison semi statement |{for}tab* for comparison semi statement|{return}tab* return expression|{print}tab* print l_expression (comma r_expression)*|{identifier}tab* indentifier eq expression |{identifier}tab* identifier l_br l_expression r_br eq r_expression|{function call}tab* function call;
+        
+	   expression      =  {multiplication} multiplication |{division} expression div multiplication|{addition} expression plus multiplication|
 					{subtraction} expression minus multiplication;
 					
-	multiplication = {something} something |
-						  {multiplication} multiplication mult something;
-						  
-	something ={identifier}id|
-				  {numb}number|
-				  {par} l_par expression r_par;
+	   multiplication 	= {something} something |
+					{multiplication} multiplication mult something;
+					
+	   something      = {identifier}identifier|
+					{numb}number|
+					{in}integer_literal|
+					{par} l_par expression r_par;
+       
+	    comparison    = {greatcomp} [leftpar]:expression great [rightpar]:expression| {lesscomp) [leftpar]:expression less [rightpar]:expression|
+         		 {notequalcomp} [leftpar]:expression neq [rightpar]:expression| {equalcomp} [leftpar]:expression eq [rightpar]:expression 
+				  | {true} true | {false} false;
+				  
+		function call  = {identifier} identifier l_par arglist? r_par;
+		
+		arglist        = {expression} l_expression(comma r_expression )*;
+		
+		value          ={numb} number |{l_string_literal} string_literal |{r_string_literal} string_literal;
+		
+	    number         ={int_liter} integer_literal;
+		
+        identifier     ={id} identifier;		
 

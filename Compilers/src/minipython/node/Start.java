@@ -6,7 +6,7 @@ import minipython.analysis.*;
 
 public final class Start extends Node
 {
-    private PProgramme _pProgramme_;
+    private PGoal _pGoal_;
     private EOF _eof_;
 
     public Start()
@@ -14,17 +14,17 @@ public final class Start extends Node
     }
 
     public Start(
-        PProgramme _pProgramme_,
+        PGoal _pGoal_,
         EOF _eof_)
     {
-        setPProgramme(_pProgramme_);
+        setPGoal(_pGoal_);
         setEOF(_eof_);
     }
 
     public Object clone()
     {
         return new Start(
-            (PProgramme) cloneNode(_pProgramme_),
+            (PGoal) cloneNode(_pGoal_),
             (EOF) cloneNode(_eof_));
     }
 
@@ -33,16 +33,16 @@ public final class Start extends Node
         ((Analysis) sw).caseStart(this);
     }
 
-    public PProgramme getPProgramme()
+    public PGoal getPGoal()
     {
-        return _pProgramme_;
+        return _pGoal_;
     }
 
-    public void setPProgramme(PProgramme node)
+    public void setPGoal(PGoal node)
     {
-        if(_pProgramme_ != null)
+        if(_pGoal_ != null)
         {
-            _pProgramme_.parent(null);
+            _pGoal_.parent(null);
         }
 
         if(node != null)
@@ -55,7 +55,7 @@ public final class Start extends Node
             node.parent(this);
         }
 
-        _pProgramme_ = node;
+        _pGoal_ = node;
     }
 
     public EOF getEOF()
@@ -85,9 +85,9 @@ public final class Start extends Node
 
     void removeChild(Node child)
     {
-        if(_pProgramme_ == child)
+        if(_pGoal_ == child)
         {
-            _pProgramme_ = null;
+            _pGoal_ = null;
             return;
         }
 
@@ -100,9 +100,9 @@ public final class Start extends Node
 
     void replaceChild(Node oldChild, Node newChild)
     {
-        if(_pProgramme_ == oldChild)
+        if(_pGoal_ == oldChild)
         {
-            setPProgramme((PProgramme) newChild);
+            setPGoal((PGoal) newChild);
             return;
         }
 
@@ -116,7 +116,7 @@ public final class Start extends Node
     public String toString()
     {
         return "" +
-            toString(_pProgramme_) +
+            toString(_pGoal_) +
             toString(_eof_);
     }
 }

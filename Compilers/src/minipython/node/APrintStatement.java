@@ -10,6 +10,7 @@ public final class APrintStatement extends PStatement
     private final LinkedList _tab_ = new TypedLinkedList(new Tab_Cast());
     private TPrint _print_;
     private PExpression _expression_;
+    private final LinkedList _cexp_ = new TypedLinkedList(new Cexp_Cast());
 
     public APrintStatement()
     {
@@ -18,7 +19,8 @@ public final class APrintStatement extends PStatement
     public APrintStatement(
         List _tab_,
         TPrint _print_,
-        PExpression _expression_)
+        PExpression _expression_,
+        List _cexp_)
     {
         {
             this._tab_.clear();
@@ -29,13 +31,19 @@ public final class APrintStatement extends PStatement
 
         setExpression(_expression_);
 
+        {
+            this._cexp_.clear();
+            this._cexp_.addAll(_cexp_);
+        }
+
     }
     public Object clone()
     {
         return new APrintStatement(
             cloneList(_tab_),
             (TPrint) cloneNode(_print_),
-            (PExpression) cloneNode(_expression_));
+            (PExpression) cloneNode(_expression_),
+            cloneList(_cexp_));
     }
 
     public void apply(Switch sw)
@@ -104,12 +112,24 @@ public final class APrintStatement extends PStatement
         _expression_ = node;
     }
 
+    public LinkedList getCexp()
+    {
+        return _cexp_;
+    }
+
+    public void setCexp(List list)
+    {
+        _cexp_.clear();
+        _cexp_.addAll(list);
+    }
+
     public String toString()
     {
         return ""
             + toString(_tab_)
             + toString(_print_)
-            + toString(_expression_);
+            + toString(_expression_)
+            + toString(_cexp_);
     }
 
     void removeChild(Node child)
@@ -128,6 +148,11 @@ public final class APrintStatement extends PStatement
         if(_expression_ == child)
         {
             _expression_ = null;
+            return;
+        }
+
+        if(_cexp_.remove(child))
+        {
             return;
         }
 
@@ -164,6 +189,23 @@ public final class APrintStatement extends PStatement
             return;
         }
 
+        for(ListIterator i = _cexp_.listIterator(); i.hasNext();)
+        {
+            if(i.next() == oldChild)
+            {
+                if(newChild != null)
+                {
+                    i.set(newChild);
+                    oldChild.parent(null);
+                    return;
+                }
+
+                i.remove();
+                oldChild.parent(null);
+                return;
+            }
+        }
+
     }
 
     private class Tab_Cast implements Cast
@@ -171,6 +213,28 @@ public final class APrintStatement extends PStatement
         public Object cast(Object o)
         {
             TTab node = (TTab) o;
+
+            if((node.parent() != null) &&
+                (node.parent() != APrintStatement.this))
+            {
+                node.parent().removeChild(node);
+            }
+
+            if((node.parent() == null) ||
+                (node.parent() != APrintStatement.this))
+            {
+                node.parent(APrintStatement.this);
+            }
+
+            return node;
+        }
+    }
+
+    private class Cexp_Cast implements Cast
+    {
+        public Object cast(Object o)
+        {
+            PCexp node = (PCexp) o;
 
             if((node.parent() != null) &&
                 (node.parent() != APrintStatement.this))
