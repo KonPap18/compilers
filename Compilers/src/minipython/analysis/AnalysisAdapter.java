@@ -73,17 +73,17 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
-    public void caseAStateCommands(AStateCommands node)
+    public void caseAStatementCommands(AStatementCommands node)
     {
         defaultCase(node);
     }
 
-    public void caseAFuncCommands(AFuncCommands node)
+    public void caseAFunctionCommands(AFunctionCommands node)
     {
         defaultCase(node);
     }
 
-    public void caseAFunctiondeclFunction(AFunctiondeclFunction node)
+    public void caseAFunctiondeclarationFunction(AFunctiondeclarationFunction node)
     {
         defaultCase(node);
     }
@@ -98,7 +98,7 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
-    public void caseAArgdeclArgument(AArgdeclArgument node)
+    public void caseAArgumentArgument(AArgumentArgument node)
     {
         defaultCase(node);
     }
@@ -133,17 +133,47 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
-    public void caseAValuealocStatement(AValuealocStatement node)
+    public void caseAAllocation1Statement(AAllocation1Statement node)
     {
         defaultCase(node);
     }
 
-    public void caseAValuealoc2Statement(AValuealoc2Statement node)
+    public void caseAAllocation2Statement(AAllocation2Statement node)
     {
         defaultCase(node);
     }
 
-    public void caseASfunctioncallStatement(ASfunctioncallStatement node)
+    public void caseAFunctioncallStatement(AFunctioncallStatement node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseASomethingMultiplication(ASomethingMultiplication node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseAMultiplicationMultiplication(AMultiplicationMultiplication node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseADivisionMultiplication(ADivisionMultiplication node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseAIdentifierSomething(AIdentifierSomething node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseANumberSomething(ANumberSomething node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseAParSomething(AParSomething node)
     {
         defaultCase(node);
     }
@@ -153,22 +183,17 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
-    public void caseAPlusPraxi(APlusPraxi node)
+    public void caseAMultiplicationExpression(AMultiplicationExpression node)
     {
         defaultCase(node);
     }
 
-    public void caseAMinusPraxi(AMinusPraxi node)
+    public void caseAAdditionExpression(AAdditionExpression node)
     {
         defaultCase(node);
     }
 
-    public void caseAMultPraxi(AMultPraxi node)
-    {
-        defaultCase(node);
-    }
-
-    public void caseADivPraxi(ADivPraxi node)
+    public void caseASubtractionExpression(ASubtractionExpression node)
     {
         defaultCase(node);
     }
@@ -178,27 +203,12 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
-    public void caseAFunctExpression(AFunctExpression node)
-    {
-        defaultCase(node);
-    }
-
-    public void caseAValExpression(AValExpression node)
-    {
-        defaultCase(node);
-    }
-
-    public void caseAEidExpression(AEidExpression node)
+    public void caseAFunctioncallExpression(AFunctioncallExpression node)
     {
         defaultCase(node);
     }
 
     public void caseAExp3Expression(AExp3Expression node)
-    {
-        defaultCase(node);
-    }
-
-    public void caseAExp4Expression(AExp4Expression node)
     {
         defaultCase(node);
     }
@@ -248,17 +258,17 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
-    public void caseANumbValue(ANumbValue node)
+    public void caseANumberValue(ANumberValue node)
     {
         defaultCase(node);
     }
 
-    public void caseAStringLiteralValue(AStringLiteralValue node)
+    public void caseAStringValue(AStringValue node)
     {
         defaultCase(node);
     }
 
-    public void caseAIntLiterNumber(AIntLiterNumber node)
+    public void caseAIntegerNumber(AIntegerNumber node)
     {
         defaultCase(node);
     }
@@ -444,6 +454,11 @@ public class AnalysisAdapter implements Analysis
     }
 
     public void caseTIntegerLiteral(TIntegerLiteral node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseTClass(TClass node)
     {
         defaultCase(node);
     }

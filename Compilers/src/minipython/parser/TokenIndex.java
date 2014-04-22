@@ -179,8 +179,13 @@ class TokenIndex extends AnalysisAdapter
         index = 33;
     }
 
-    public void caseEOF(EOF node)
+    public void caseTClass(TClass node)
     {
         index = 34;
+    }
+
+    public void caseEOF(EOF node)
+    {
+        index = 35;
     }
 }
