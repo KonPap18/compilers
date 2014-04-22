@@ -653,34 +653,6 @@ public class ReversedDepthFirstAdapter extends AnalysisAdapter
         outADivPraxi(node);
     }
 
-    public void inAPraxhExpression(APraxhExpression node)
-    {
-        defaultIn(node);
-    }
-
-    public void outAPraxhExpression(APraxhExpression node)
-    {
-        defaultOut(node);
-    }
-
-    public void caseAPraxhExpression(APraxhExpression node)
-    {
-        inAPraxhExpression(node);
-        if(node.getSecond() != null)
-        {
-            node.getSecond().apply(this);
-        }
-        if(node.getPraxi() != null)
-        {
-            node.getPraxi().apply(this);
-        }
-        if(node.getFirst() != null)
-        {
-            node.getFirst().apply(this);
-        }
-        outAPraxhExpression(node);
-    }
-
     public void inAExp2Expression(AExp2Expression node)
     {
         defaultIn(node);

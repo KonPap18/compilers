@@ -44,11 +44,12 @@ Tokens
 	great = '>';
 	true = 'true';
 	false = 'false';
-	blank = (' ' | tab | lf | cr | cr lf)+;
+	blank = (' ' | cr lf | cr | lf | tab)+;
 	line_comment = tab* '#' not_eol* eol; 
 	id = letter (letter | digit)*;
-    string_literal= ('"' string_char* '"');
-	integer_literal = ((digit+ '.' digit*) | (digit* '.' digit+));
+    string_literal = ('"' string_char* '"');
+	integer_literal = digit+ | digit+ '.' digit* | digit* '.' digit+;
+	class = 'class';
 	
 Ignored Tokens
 	blank, line_comment;
@@ -56,53 +57,53 @@ Ignored Tokens
 Productions
 		goal = commands*;
 
-		commands = {state} statement
-					| {func} function;
+		commands = {statement} statement
+					| {function} function;
 
-		function = {functiondecl} def identifier l_par argument? r_par semi statement;
-		
+		function = {functiondeclaration} def identifier l_par argument? r_par semi statement;
 		arg1 = eq value;
 		arg2 = comma identifier arg1?;
-		argument = {argdecl} identifier arg1? arg2*;			
-		
+		argument = {argument} identifier arg1? arg2*;
+
 		cexp = comma expression;
 		statement = {if} tab* if comparison semi statement 
 					| {while} tab* while comparison semi statement 
 					| {for} tab* for [first]:identifier in [second]:identifier semi statement
 					| {return} tab* return expression
 					| {print} tab* print expression cexp*
-					| {valuealoc} tab* identifier eq expression 
-					| {valuealoc2} tab* identifier l_br [first]:expression r_br eq [second]:expression
-					| {sfunctioncall} tab* function_call;
+					| {allocation1} tab* identifier eq expression
+					| {allocation2} tab* identifier l_br [first]:expression r_br eq [second]:expression
+					| {functioncall} tab* function_call;
 		
+		multiplication = {something} something
+						| {multiplication} multiplication mult something
+						| {division} multiplication div something;					
+		something = {identifier} identifier
+					| {number} value
+					| {par} l_par expression r_par;
 		cval = comma value;
-		praxi = {plus} plus
-				| {minus} minus
-				| {mult} mult
-				| {div} div;
-		expression = {praxh} [first]:expression praxi [second]:expression
+		expression = {multiplication} multiplication
+					| {addition} expression plus multiplication
+					| {subtraction} expression minus multiplication
 					| {exp2} identifier l_br expression r_br
-					| {funct} function_call
-					| {val} value
-					| {eid} identifier
-					| {exp3} l_par expression r_par
-					| {exp4} l_br value cval* r_br; 
+					| {functioncall} function_call					
+					| {exp3} l_br value cval* r_br;
 		
 		symb = {great} great
 				| {less} less
 				| {neq} neq
 				| {ceq} ceq;
 	    comparison = {comp} [first]:expression symb [second]:expression
-						| {true} true 
-						| {false} false;
+					| {true} true 
+					| {false} false;
 				  
 		function_call = {functioncall} identifier l_par arglist? r_par;
 		
 		arglist = {args} expression cexp*;
 		
-		value = {numb} number
-				|{string_literal} string_literal;
+		value = {number} number
+				| {string} string_literal;
 		
-	    number = {int_liter} integer_literal;
-		
-        identifier     = {id} id;		
+	    number = {integer} integer_literal;
+
+        identifier = {id} id;		

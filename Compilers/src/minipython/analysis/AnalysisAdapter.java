@@ -173,11 +173,6 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
-    public void caseAPraxhExpression(APraxhExpression node)
-    {
-        defaultCase(node);
-    }
-
     public void caseAExp2Expression(AExp2Expression node)
     {
         defaultCase(node);

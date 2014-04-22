@@ -33,7 +33,6 @@ public interface Analysis extends Switch
     void caseAMinusPraxi(AMinusPraxi node);
     void caseAMultPraxi(AMultPraxi node);
     void caseADivPraxi(ADivPraxi node);
-    void caseAPraxhExpression(APraxhExpression node);
     void caseAExp2Expression(AExp2Expression node);
     void caseAFunctExpression(AFunctExpression node);
     void caseAValExpression(AValExpression node);
