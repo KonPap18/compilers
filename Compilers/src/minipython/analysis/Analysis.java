@@ -33,14 +33,14 @@ public interface Analysis extends Switch
     void caseADivisionMultiplication(ADivisionMultiplication node);
     void caseAIdentifierSomething(AIdentifierSomething node);
     void caseANumberSomething(ANumberSomething node);
+    void caseAFunctioncallSomething(AFunctioncallSomething node);
+    void caseAExp2Something(AExp2Something node);
+    void caseAExp3Something(AExp3Something node);
     void caseAParSomething(AParSomething node);
     void caseACval(ACval node);
     void caseAMultiplicationExpression(AMultiplicationExpression node);
     void caseAAdditionExpression(AAdditionExpression node);
     void caseASubtractionExpression(ASubtractionExpression node);
-    void caseAExp2Expression(AExp2Expression node);
-    void caseAFunctioncallExpression(AFunctioncallExpression node);
-    void caseAExp3Expression(AExp3Expression node);
     void caseAGreatSymb(AGreatSymb node);
     void caseALessSymb(ALessSymb node);
     void caseANeqSymb(ANeqSymb node);

@@ -666,6 +666,93 @@ public class DepthFirstAdapter extends AnalysisAdapter
         outANumberSomething(node);
     }
 
+    public void inAFunctioncallSomething(AFunctioncallSomething node)
+    {
+        defaultIn(node);
+    }
+
+    public void outAFunctioncallSomething(AFunctioncallSomething node)
+    {
+        defaultOut(node);
+    }
+
+    public void caseAFunctioncallSomething(AFunctioncallSomething node)
+    {
+        inAFunctioncallSomething(node);
+        if(node.getFunctionCall() != null)
+        {
+            node.getFunctionCall().apply(this);
+        }
+        outAFunctioncallSomething(node);
+    }
+
+    public void inAExp2Something(AExp2Something node)
+    {
+        defaultIn(node);
+    }
+
+    public void outAExp2Something(AExp2Something node)
+    {
+        defaultOut(node);
+    }
+
+    public void caseAExp2Something(AExp2Something node)
+    {
+        inAExp2Something(node);
+        if(node.getIdentifier() != null)
+        {
+            node.getIdentifier().apply(this);
+        }
+        if(node.getLBr() != null)
+        {
+            node.getLBr().apply(this);
+        }
+        if(node.getExpression() != null)
+        {
+            node.getExpression().apply(this);
+        }
+        if(node.getRBr() != null)
+        {
+            node.getRBr().apply(this);
+        }
+        outAExp2Something(node);
+    }
+
+    public void inAExp3Something(AExp3Something node)
+    {
+        defaultIn(node);
+    }
+
+    public void outAExp3Something(AExp3Something node)
+    {
+        defaultOut(node);
+    }
+
+    public void caseAExp3Something(AExp3Something node)
+    {
+        inAExp3Something(node);
+        if(node.getLBr() != null)
+        {
+            node.getLBr().apply(this);
+        }
+        if(node.getValue() != null)
+        {
+            node.getValue().apply(this);
+        }
+        {
+            Object temp[] = node.getCval().toArray();
+            for(int i = 0; i < temp.length; i++)
+            {
+                ((PCval) temp[i]).apply(this);
+            }
+        }
+        if(node.getRBr() != null)
+        {
+            node.getRBr().apply(this);
+        }
+        outAExp3Something(node);
+    }
+
     public void inAParSomething(AParSomething node)
     {
         defaultIn(node);
@@ -792,93 +879,6 @@ public class DepthFirstAdapter extends AnalysisAdapter
             node.getMultiplication().apply(this);
         }
         outASubtractionExpression(node);
-    }
-
-    public void inAExp2Expression(AExp2Expression node)
-    {
-        defaultIn(node);
-    }
-
-    public void outAExp2Expression(AExp2Expression node)
-    {
-        defaultOut(node);
-    }
-
-    public void caseAExp2Expression(AExp2Expression node)
-    {
-        inAExp2Expression(node);
-        if(node.getIdentifier() != null)
-        {
-            node.getIdentifier().apply(this);
-        }
-        if(node.getLBr() != null)
-        {
-            node.getLBr().apply(this);
-        }
-        if(node.getExpression() != null)
-        {
-            node.getExpression().apply(this);
-        }
-        if(node.getRBr() != null)
-        {
-            node.getRBr().apply(this);
-        }
-        outAExp2Expression(node);
-    }
-
-    public void inAFunctioncallExpression(AFunctioncallExpression node)
-    {
-        defaultIn(node);
-    }
-
-    public void outAFunctioncallExpression(AFunctioncallExpression node)
-    {
-        defaultOut(node);
-    }
-
-    public void caseAFunctioncallExpression(AFunctioncallExpression node)
-    {
-        inAFunctioncallExpression(node);
-        if(node.getFunctionCall() != null)
-        {
-            node.getFunctionCall().apply(this);
-        }
-        outAFunctioncallExpression(node);
-    }
-
-    public void inAExp3Expression(AExp3Expression node)
-    {
-        defaultIn(node);
-    }
-
-    public void outAExp3Expression(AExp3Expression node)
-    {
-        defaultOut(node);
-    }
-
-    public void caseAExp3Expression(AExp3Expression node)
-    {
-        inAExp3Expression(node);
-        if(node.getLBr() != null)
-        {
-            node.getLBr().apply(this);
-        }
-        if(node.getValue() != null)
-        {
-            node.getValue().apply(this);
-        }
-        {
-            Object temp[] = node.getCval().toArray();
-            for(int i = 0; i < temp.length; i++)
-            {
-                ((PCval) temp[i]).apply(this);
-            }
-        }
-        if(node.getRBr() != null)
-        {
-            node.getRBr().apply(this);
-        }
-        outAExp3Expression(node);
     }
 
     public void inAGreatSymb(AGreatSymb node)

@@ -31,4 +31,4 @@ w = fib(5)
 print w+findmax(1,2)
 l=[0,1,"hello","world"]
 for k in l:
-print k
+	print k

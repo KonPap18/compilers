@@ -173,6 +173,21 @@ public class AnalysisAdapter implements Analysis
         defaultCase(node);
     }
 
+    public void caseAFunctioncallSomething(AFunctioncallSomething node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseAExp2Something(AExp2Something node)
+    {
+        defaultCase(node);
+    }
+
+    public void caseAExp3Something(AExp3Something node)
+    {
+        defaultCase(node);
+    }
+
     public void caseAParSomething(AParSomething node)
     {
         defaultCase(node);
@@ -194,21 +209,6 @@ public class AnalysisAdapter implements Analysis
     }
 
     public void caseASubtractionExpression(ASubtractionExpression node)
-    {
-        defaultCase(node);
-    }
-
-    public void caseAExp2Expression(AExp2Expression node)
-    {
-        defaultCase(node);
-    }
-
-    public void caseAFunctioncallExpression(AFunctioncallExpression node)
-    {
-        defaultCase(node);
-    }
-
-    public void caseAExp3Expression(AExp3Expression node)
     {
         defaultCase(node);
     }
