@@ -5,16 +5,16 @@ package minipython.node;
 import java.util.*;
 import minipython.analysis.*;
 
-public final class AIfStatement extends PStatement
+public final class AWhileStatement extends PStatement
 {
     private PComparison _comparison_;
     private PStatement _statement_;
 
-    public AIfStatement()
+    public AWhileStatement()
     {
     }
 
-    public AIfStatement(
+    public AWhileStatement(
         PComparison _comparison_,
         PStatement _statement_)
     {
@@ -25,14 +25,14 @@ public final class AIfStatement extends PStatement
     }
     public Object clone()
     {
-        return new AIfStatement(
+        return new AWhileStatement(
             (PComparison) cloneNode(_comparison_),
             (PStatement) cloneNode(_statement_));
     }
 
     public void apply(Switch sw)
     {
-        ((Analysis) sw).caseAIfStatement(this);
+        ((Analysis) sw).caseAWhileStatement(this);
     }
 
     public PComparison getComparison()

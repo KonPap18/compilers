@@ -5,41 +5,41 @@ package minipython.node;
 import java.util.*;
 import minipython.analysis.*;
 
-public final class AFalseComparison extends PComparison
+public final class AValueExpression extends PExpression
 {
-    private TFalse _false_;
+    private PValue _value_;
 
-    public AFalseComparison()
+    public AValueExpression()
     {
     }
 
-    public AFalseComparison(
-        TFalse _false_)
+    public AValueExpression(
+        PValue _value_)
     {
-        setFalse(_false_);
+        setValue(_value_);
 
     }
     public Object clone()
     {
-        return new AFalseComparison(
-            (TFalse) cloneNode(_false_));
+        return new AValueExpression(
+            (PValue) cloneNode(_value_));
     }
 
     public void apply(Switch sw)
     {
-        ((Analysis) sw).caseAFalseComparison(this);
+        ((Analysis) sw).caseAValueExpression(this);
     }
 
-    public TFalse getFalse()
+    public PValue getValue()
     {
-        return _false_;
+        return _value_;
     }
 
-    public void setFalse(TFalse node)
+    public void setValue(PValue node)
     {
-        if(_false_ != null)
+        if(_value_ != null)
         {
-            _false_.parent(null);
+            _value_.parent(null);
         }
 
         if(node != null)
@@ -52,20 +52,20 @@ public final class AFalseComparison extends PComparison
             node.parent(this);
         }
 
-        _false_ = node;
+        _value_ = node;
     }
 
     public String toString()
     {
         return ""
-            + toString(_false_);
+            + toString(_value_);
     }
 
     void removeChild(Node child)
     {
-        if(_false_ == child)
+        if(_value_ == child)
         {
-            _false_ = null;
+            _value_ = null;
             return;
         }
 
@@ -73,9 +73,9 @@ public final class AFalseComparison extends PComparison
 
     void replaceChild(Node oldChild, Node newChild)
     {
-        if(_false_ == oldChild)
+        if(_value_ == oldChild)
         {
-            setFalse((TFalse) newChild);
+            setValue((PValue) newChild);
             return;
         }
 

@@ -297,7 +297,7 @@ public class Parser
                     case 7:
 		    {
 			ArrayList list = new7();
-			push(goTo(4), list);
+			push(goTo(3), list);
 		    }
 		    break;
 
@@ -305,7 +305,7 @@ public class Parser
                     case 8:
 		    {
 			ArrayList list = new8();
-			push(goTo(4), list);
+			push(goTo(3), list);
 		    }
 		    break;
 
@@ -313,7 +313,7 @@ public class Parser
                     case 9:
 		    {
 			ArrayList list = new9();
-			push(goTo(5), list);
+			push(goTo(3), list);
 		    }
 		    break;
 
@@ -321,7 +321,7 @@ public class Parser
                     case 10:
 		    {
 			ArrayList list = new10();
-			push(goTo(5), list);
+			push(goTo(4), list);
 		    }
 		    break;
 
@@ -353,7 +353,7 @@ public class Parser
                     case 14:
 		    {
 			ArrayList list = new14();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -361,7 +361,7 @@ public class Parser
                     case 15:
 		    {
 			ArrayList list = new15();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -369,7 +369,7 @@ public class Parser
                     case 16:
 		    {
 			ArrayList list = new16();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -377,7 +377,7 @@ public class Parser
                     case 17:
 		    {
 			ArrayList list = new17();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -385,7 +385,7 @@ public class Parser
                     case 18:
 		    {
 			ArrayList list = new18();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -393,7 +393,7 @@ public class Parser
                     case 19:
 		    {
 			ArrayList list = new19();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -401,7 +401,7 @@ public class Parser
                     case 20:
 		    {
 			ArrayList list = new20();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -409,7 +409,7 @@ public class Parser
                     case 21:
 		    {
 			ArrayList list = new21();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -417,7 +417,7 @@ public class Parser
                     case 22:
 		    {
 			ArrayList list = new22();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -425,7 +425,7 @@ public class Parser
                     case 23:
 		    {
 			ArrayList list = new23();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -433,7 +433,7 @@ public class Parser
                     case 24:
 		    {
 			ArrayList list = new24();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -441,7 +441,7 @@ public class Parser
                     case 25:
 		    {
 			ArrayList list = new25();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -449,7 +449,7 @@ public class Parser
                     case 26:
 		    {
 			ArrayList list = new26();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -457,7 +457,7 @@ public class Parser
                     case 27:
 		    {
 			ArrayList list = new27();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -465,7 +465,7 @@ public class Parser
                     case 28:
 		    {
 			ArrayList list = new28();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -473,7 +473,7 @@ public class Parser
                     case 29:
 		    {
 			ArrayList list = new29();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -481,7 +481,7 @@ public class Parser
                     case 30:
 		    {
 			ArrayList list = new30();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -489,7 +489,7 @@ public class Parser
                     case 31:
 		    {
 			ArrayList list = new31();
-			push(goTo(7), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -497,7 +497,7 @@ public class Parser
                     case 32:
 		    {
 			ArrayList list = new32();
-			push(goTo(8), list);
+			push(goTo(6), list);
 		    }
 		    break;
 
@@ -505,7 +505,7 @@ public class Parser
                     case 33:
 		    {
 			ArrayList list = new33();
-			push(goTo(8), list);
+			push(goTo(7), list);
 		    }
 		    break;
 
@@ -521,7 +521,7 @@ public class Parser
                     case 35:
 		    {
 			ArrayList list = new35();
-			push(goTo(9), list);
+			push(goTo(8), list);
 		    }
 		    break;
 
@@ -529,7 +529,7 @@ public class Parser
                     case 36:
 		    {
 			ArrayList list = new36();
-			push(goTo(9), list);
+			push(goTo(8), list);
 		    }
 		    break;
 
@@ -561,7 +561,7 @@ public class Parser
                     case 40:
 		    {
 			ArrayList list = new40();
-			push(goTo(9), list);
+			push(goTo(10), list);
 		    }
 		    break;
 
@@ -569,7 +569,7 @@ public class Parser
                     case 41:
 		    {
 			ArrayList list = new41();
-			push(goTo(9), list);
+			push(goTo(10), list);
 		    }
 		    break;
 
@@ -585,7 +585,7 @@ public class Parser
                     case 43:
 		    {
 			ArrayList list = new43();
-			push(goTo(11), list);
+			push(goTo(10), list);
 		    }
 		    break;
 
@@ -593,7 +593,7 @@ public class Parser
                     case 44:
 		    {
 			ArrayList list = new44();
-			push(goTo(11), list);
+			push(goTo(10), list);
 		    }
 		    break;
 
@@ -601,7 +601,7 @@ public class Parser
                     case 45:
 		    {
 			ArrayList list = new45();
-			push(goTo(11), list);
+			push(goTo(10), list);
 		    }
 		    break;
 
@@ -609,7 +609,7 @@ public class Parser
                     case 46:
 		    {
 			ArrayList list = new46();
-			push(goTo(12), list);
+			push(goTo(10), list);
 		    }
 		    break;
 
@@ -617,7 +617,7 @@ public class Parser
                     case 47:
 		    {
 			ArrayList list = new47();
-			push(goTo(12), list);
+			push(goTo(10), list);
 		    }
 		    break;
 
@@ -625,7 +625,7 @@ public class Parser
                     case 48:
 		    {
 			ArrayList list = new48();
-			push(goTo(12), list);
+			push(goTo(11), list);
 		    }
 		    break;
 
@@ -641,7 +641,7 @@ public class Parser
                     case 50:
 		    {
 			ArrayList list = new50();
-			push(goTo(13), list);
+			push(goTo(12), list);
 		    }
 		    break;
 
@@ -649,7 +649,7 @@ public class Parser
                     case 51:
 		    {
 			ArrayList list = new51();
-			push(goTo(13), list);
+			push(goTo(12), list);
 		    }
 		    break;
 
@@ -657,7 +657,7 @@ public class Parser
                     case 52:
 		    {
 			ArrayList list = new52();
-			push(goTo(13), list);
+			push(goTo(12), list);
 		    }
 		    break;
 
@@ -665,7 +665,7 @@ public class Parser
                     case 53:
 		    {
 			ArrayList list = new53();
-			push(goTo(14), list);
+			push(goTo(13), list);
 		    }
 		    break;
 
@@ -673,7 +673,7 @@ public class Parser
                     case 54:
 		    {
 			ArrayList list = new54();
-			push(goTo(14), list);
+			push(goTo(13), list);
 		    }
 		    break;
 
@@ -681,7 +681,7 @@ public class Parser
                     case 55:
 		    {
 			ArrayList list = new55();
-			push(goTo(15), list);
+			push(goTo(14), list);
 		    }
 		    break;
 
@@ -689,7 +689,7 @@ public class Parser
                     case 56:
 		    {
 			ArrayList list = new56();
-			push(goTo(15), list);
+			push(goTo(14), list);
 		    }
 		    break;
 
@@ -697,7 +697,7 @@ public class Parser
                     case 57:
 		    {
 			ArrayList list = new57();
-			push(goTo(16), list);
+			push(goTo(15), list);
 		    }
 		    break;
 
@@ -705,7 +705,7 @@ public class Parser
                     case 58:
 		    {
 			ArrayList list = new58();
-			push(goTo(16), list);
+			push(goTo(15), list);
 		    }
 		    break;
 
@@ -713,7 +713,7 @@ public class Parser
                     case 59:
 		    {
 			ArrayList list = new59();
-			push(goTo(17), list);
+			push(goTo(16), list);
 		    }
 		    break;
 
@@ -721,7 +721,7 @@ public class Parser
                     case 60:
 		    {
 			ArrayList list = new60();
-			push(goTo(18), list);
+			push(goTo(16), list);
 		    }
 		    break;
 
@@ -729,7 +729,7 @@ public class Parser
                     case 61:
 		    {
 			ArrayList list = new61();
-			push(goTo(19), list);
+			push(goTo(17), list);
 		    }
 		    break;
 
@@ -737,7 +737,7 @@ public class Parser
                     case 62:
 		    {
 			ArrayList list = new62();
-			push(goTo(19), list);
+			push(goTo(17), list);
 		    }
 		    break;
 
@@ -745,7 +745,7 @@ public class Parser
                     case 63:
 		    {
 			ArrayList list = new63();
-			push(goTo(20), list);
+			push(goTo(18), list);
 		    }
 		    break;
 
@@ -753,7 +753,7 @@ public class Parser
                     case 64:
 		    {
 			ArrayList list = new64();
-			push(goTo(20), list);
+			push(goTo(18), list);
 		    }
 		    break;
 
@@ -761,7 +761,7 @@ public class Parser
                     case 65:
 		    {
 			ArrayList list = new65();
-			push(goTo(21), list);
+			push(goTo(19), list);
 		    }
 		    break;
 
@@ -769,39 +769,7 @@ public class Parser
                     case 66:
 		    {
 			ArrayList list = new66();
-			push(goTo(21), list);
-		    }
-		    break;
-
-
-                    case 67:
-		    {
-			ArrayList list = new67();
-			push(goTo(22), list);
-		    }
-		    break;
-
-
-                    case 68:
-		    {
-			ArrayList list = new68();
-			push(goTo(22), list);
-		    }
-		    break;
-
-
-                    case 69:
-		    {
-			ArrayList list = new69();
-			push(goTo(23), list);
-		    }
-		    break;
-
-
-                    case 70:
-		    {
-			ArrayList list = new70();
-			push(goTo(23), list);
+			push(goTo(19), list);
 		    }
 		    break;
 
@@ -810,7 +778,7 @@ public class Parser
                 case ACCEPT:
                     {
                         EOF node2 = (EOF) lexer.next();
-                        PGoal node1 = (PGoal) ((ArrayList)pop()).get(0);
+                        PProgramme node1 = (PProgramme) ((ArrayList)pop()).get(0);
                         Start node = new Start(node1, node2);
                         return node;
                     }
@@ -828,15 +796,15 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        PGoal pgoalNode1;
+        PProgramme pprogrammeNode1;
         {
         TypedLinkedList listNode2 = new TypedLinkedList();
         {
         }
 
-        pgoalNode1 = new AGoal(listNode2);
+        pprogrammeNode1 = new AProgramme(listNode2);
         }
-	nodeList.add(pgoalNode1);
+	nodeList.add(pprogrammeNode1);
         return nodeList;
     }
 
@@ -847,7 +815,7 @@ public class Parser
         ArrayList nodeList = new ArrayList();
 
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PGoal pgoalNode1;
+        PProgramme pprogrammeNode1;
         {
         TypedLinkedList listNode3 = new TypedLinkedList();
         {
@@ -859,9 +827,9 @@ public class Parser
 	}
         }
 
-        pgoalNode1 = new AGoal(listNode3);
+        pprogrammeNode1 = new AProgramme(listNode3);
         }
-	nodeList.add(pgoalNode1);
+	nodeList.add(pprogrammeNode1);
         return nodeList;
     }
 
@@ -915,21 +883,15 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PFunction pfunctionNode1;
         {
-        TDef tdefNode2;
-        PIdentifier pidentifierNode3;
-        TLPar tlparNode4;
-        Object nullNode5 = null;
-        TRPar trparNode6;
-        TSemi tsemiNode7;
-        PStatement pstatementNode8;
-        tdefNode2 = (TDef)nodeArrayList1.get(0);
-        pidentifierNode3 = (PIdentifier)nodeArrayList2.get(0);
-        tlparNode4 = (TLPar)nodeArrayList3.get(0);
-        trparNode6 = (TRPar)nodeArrayList4.get(0);
-        tsemiNode7 = (TSemi)nodeArrayList5.get(0);
-        pstatementNode8 = (PStatement)nodeArrayList6.get(0);
+        TId tidNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        PStatement pstatementNode4;
+        tidNode2 = (TId)nodeArrayList2.get(0);
+        {
+        }
+        pstatementNode4 = (PStatement)nodeArrayList6.get(0);
 
-        pfunctionNode1 = new AFunctiondeclarationFunction(tdefNode2, pidentifierNode3, tlparNode4, null, trparNode6, tsemiNode7, pstatementNode8);
+        pfunctionNode1 = new AFunctionDeclarationFunction(tidNode2, listNode3, pstatementNode4);
         }
 	nodeList.add(pfunctionNode1);
         return nodeList;
@@ -950,22 +912,21 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PFunction pfunctionNode1;
         {
-        TDef tdefNode2;
-        PIdentifier pidentifierNode3;
-        TLPar tlparNode4;
-        PArgument pargumentNode5;
-        TRPar trparNode6;
-        TSemi tsemiNode7;
-        PStatement pstatementNode8;
-        tdefNode2 = (TDef)nodeArrayList1.get(0);
-        pidentifierNode3 = (PIdentifier)nodeArrayList2.get(0);
-        tlparNode4 = (TLPar)nodeArrayList3.get(0);
-        pargumentNode5 = (PArgument)nodeArrayList4.get(0);
-        trparNode6 = (TRPar)nodeArrayList5.get(0);
-        tsemiNode7 = (TSemi)nodeArrayList6.get(0);
-        pstatementNode8 = (PStatement)nodeArrayList7.get(0);
+        TId tidNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        PStatement pstatementNode5;
+        tidNode2 = (TId)nodeArrayList2.get(0);
+        {
+        PArgument pargumentNode3;
+        pargumentNode3 = (PArgument)nodeArrayList4.get(0);
+	if(pargumentNode3 != null)
+	{
+	  listNode4.add(pargumentNode3);
+	}
+        }
+        pstatementNode5 = (PStatement)nodeArrayList7.get(0);
 
-        pfunctionNode1 = new AFunctiondeclarationFunction(tdefNode2, pidentifierNode3, tlparNode4, pargumentNode5, trparNode6, tsemiNode7, pstatementNode8);
+        pfunctionNode1 = new AFunctionDeclarationFunction(tidNode2, listNode4, pstatementNode5);
         }
 	nodeList.add(pfunctionNode1);
         return nodeList;
@@ -977,18 +938,21 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArg1 parg1Node1;
+        PArgument pargumentNode1;
         {
-        TEq teqNode2;
-        PValue pvalueNode3;
-        teqNode2 = (TEq)nodeArrayList1.get(0);
-        pvalueNode3 = (PValue)nodeArrayList2.get(0);
-
-        parg1Node1 = new AArg1(teqNode2, pvalueNode3);
+        TId tidNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        {
         }
-	nodeList.add(parg1Node1);
+        {
+        }
+
+        pargumentNode1 = new AArgument(tidNode2, listNode3, listNode4);
+        }
+	nodeList.add(pargumentNode1);
         return nodeList;
     }
 
@@ -1000,17 +964,26 @@ public class Parser
 
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArg2 parg2Node1;
+        PArgument pargumentNode1;
         {
-        TComma tcommaNode2;
-        PIdentifier pidentifierNode3;
-        Object nullNode4 = null;
-        tcommaNode2 = (TComma)nodeArrayList1.get(0);
-        pidentifierNode3 = (PIdentifier)nodeArrayList2.get(0);
-
-        parg2Node1 = new AArg2(tcommaNode2, pidentifierNode3, null);
+        TId tidNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        TypedLinkedList listNode5 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        {
+        PArgumentAllocation pargumentallocationNode3;
+        pargumentallocationNode3 = (PArgumentAllocation)nodeArrayList2.get(0);
+	if(pargumentallocationNode3 != null)
+	{
+	  listNode4.add(pargumentallocationNode3);
+	}
         }
-	nodeList.add(parg2Node1);
+        {
+        }
+
+        pargumentNode1 = new AArgument(tidNode2, listNode4, listNode5);
+        }
+	nodeList.add(pargumentNode1);
         return nodeList;
     }
 
@@ -1020,21 +993,28 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArg2 parg2Node1;
+        PArgument pargumentNode1;
         {
-        TComma tcommaNode2;
-        PIdentifier pidentifierNode3;
-        PArg1 parg1Node4;
-        tcommaNode2 = (TComma)nodeArrayList1.get(0);
-        pidentifierNode3 = (PIdentifier)nodeArrayList2.get(0);
-        parg1Node4 = (PArg1)nodeArrayList3.get(0);
-
-        parg2Node1 = new AArg2(tcommaNode2, pidentifierNode3, parg1Node4);
+        TId tidNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        TypedLinkedList listNode5 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        {
         }
-	nodeList.add(parg2Node1);
+        {
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        listNode4 = (TypedLinkedList)nodeArrayList2.get(0);
+	if(listNode4 != null)
+	{
+	  listNode5.addAll(listNode4);
+	}
+        }
+
+        pargumentNode1 = new AArgument(tidNode2, listNode3, listNode5);
+        }
+	nodeList.add(pargumentNode1);
         return nodeList;
     }
 
@@ -1044,17 +1024,33 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PArgument pargumentNode1;
         {
-        PIdentifier pidentifierNode2;
-        Object nullNode3 = null;
+        TId tidNode2;
         TypedLinkedList listNode4 = new TypedLinkedList();
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
+        TypedLinkedList listNode6 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
         {
+        PArgumentAllocation pargumentallocationNode3;
+        pargumentallocationNode3 = (PArgumentAllocation)nodeArrayList2.get(0);
+	if(pargumentallocationNode3 != null)
+	{
+	  listNode4.add(pargumentallocationNode3);
+	}
+        }
+        {
+        TypedLinkedList listNode5 = new TypedLinkedList();
+        listNode5 = (TypedLinkedList)nodeArrayList3.get(0);
+	if(listNode5 != null)
+	{
+	  listNode6.addAll(listNode5);
+	}
         }
 
-        pargumentNode1 = new AArgumentArgument(pidentifierNode2, null, listNode4);
+        pargumentNode1 = new AArgument(tidNode2, listNode4, listNode6);
         }
 	nodeList.add(pargumentNode1);
         return nodeList;
@@ -1068,19 +1064,14 @@ public class Parser
 
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArgument pargumentNode1;
+        PArgumentAllocation pargumentallocationNode1;
         {
-        PIdentifier pidentifierNode2;
-        PArg1 parg1Node3;
-        TypedLinkedList listNode4 = new TypedLinkedList();
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
-        parg1Node3 = (PArg1)nodeArrayList2.get(0);
-        {
-        }
+        PValue pvalueNode2;
+        pvalueNode2 = (PValue)nodeArrayList2.get(0);
 
-        pargumentNode1 = new AArgumentArgument(pidentifierNode2, parg1Node3, listNode4);
+        pargumentallocationNode1 = new AArgumentAllocation(pvalueNode2);
         }
-	nodeList.add(pargumentNode1);
+	nodeList.add(pargumentallocationNode1);
         return nodeList;
     }
 
@@ -1092,24 +1083,17 @@ public class Parser
 
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArgument pargumentNode1;
+        PAnotherArgument panotherargumentNode1;
         {
-        PIdentifier pidentifierNode2;
-        Object nullNode3 = null;
-        TypedLinkedList listNode5 = new TypedLinkedList();
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
+        TId tidNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList2.get(0);
         {
-        TypedLinkedList listNode4 = new TypedLinkedList();
-        listNode4 = (TypedLinkedList)nodeArrayList2.get(0);
-	if(listNode4 != null)
-	{
-	  listNode5.addAll(listNode4);
-	}
         }
 
-        pargumentNode1 = new AArgumentArgument(pidentifierNode2, null, listNode5);
+        panotherargumentNode1 = new AAnotherArgument(tidNode2, listNode3);
         }
-	nodeList.add(pargumentNode1);
+	nodeList.add(panotherargumentNode1);
         return nodeList;
     }
 
@@ -1122,25 +1106,23 @@ public class Parser
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArgument pargumentNode1;
+        PAnotherArgument panotherargumentNode1;
         {
-        PIdentifier pidentifierNode2;
-        PArg1 parg1Node3;
-        TypedLinkedList listNode5 = new TypedLinkedList();
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
-        parg1Node3 = (PArg1)nodeArrayList2.get(0);
-        {
+        TId tidNode2;
         TypedLinkedList listNode4 = new TypedLinkedList();
-        listNode4 = (TypedLinkedList)nodeArrayList3.get(0);
-	if(listNode4 != null)
+        tidNode2 = (TId)nodeArrayList2.get(0);
+        {
+        PArgumentAllocation pargumentallocationNode3;
+        pargumentallocationNode3 = (PArgumentAllocation)nodeArrayList3.get(0);
+	if(pargumentallocationNode3 != null)
 	{
-	  listNode5.addAll(listNode4);
+	  listNode4.add(pargumentallocationNode3);
 	}
         }
 
-        pargumentNode1 = new AArgumentArgument(pidentifierNode2, parg1Node3, listNode5);
+        panotherargumentNode1 = new AAnotherArgument(tidNode2, listNode4);
         }
-	nodeList.add(pargumentNode1);
+	nodeList.add(panotherargumentNode1);
         return nodeList;
     }
 
@@ -1150,18 +1132,20 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
+        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PCexp pcexpNode1;
+        PStatement pstatementNode1;
         {
-        TComma tcommaNode2;
-        PExpression pexpressionNode3;
-        tcommaNode2 = (TComma)nodeArrayList1.get(0);
-        pexpressionNode3 = (PExpression)nodeArrayList2.get(0);
+        PComparison pcomparisonNode2;
+        PStatement pstatementNode3;
+        pcomparisonNode2 = (PComparison)nodeArrayList2.get(0);
+        pstatementNode3 = (PStatement)nodeArrayList4.get(0);
 
-        pcexpNode1 = new ACexp(tcommaNode2, pexpressionNode3);
+        pstatementNode1 = new AIfStatement(pcomparisonNode2, pstatementNode3);
         }
-	nodeList.add(pcexpNode1);
+	nodeList.add(pstatementNode1);
         return nodeList;
     }
 
@@ -1171,25 +1155,19 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList5 = (ArrayList) pop();
         ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        TIf tifNode3;
-        PComparison pcomparisonNode4;
-        TSemi tsemiNode5;
-        PStatement pstatementNode6;
-        {
-        }
-        tifNode3 = (TIf)nodeArrayList1.get(0);
-        pcomparisonNode4 = (PComparison)nodeArrayList2.get(0);
-        tsemiNode5 = (TSemi)nodeArrayList3.get(0);
-        pstatementNode6 = (PStatement)nodeArrayList4.get(0);
+        PComparison pcomparisonNode2;
+        PStatement pstatementNode3;
+        pcomparisonNode2 = (PComparison)nodeArrayList3.get(0);
+        pstatementNode3 = (PStatement)nodeArrayList5.get(0);
 
-        pstatementNode1 = new AIfStatement(listNode2, tifNode3, pcomparisonNode4, tsemiNode5, pstatementNode6);
+        pstatementNode1 = new AIfStatement(pcomparisonNode2, pstatementNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1201,32 +1179,18 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList5 = (ArrayList) pop();
         ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        TIf tifNode4;
-        PComparison pcomparisonNode5;
-        TSemi tsemiNode6;
-        PStatement pstatementNode7;
-        {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
-	{
-	  listNode3.addAll(listNode2);
-	}
-        }
-        tifNode4 = (TIf)nodeArrayList2.get(0);
-        pcomparisonNode5 = (PComparison)nodeArrayList3.get(0);
-        tsemiNode6 = (TSemi)nodeArrayList4.get(0);
-        pstatementNode7 = (PStatement)nodeArrayList5.get(0);
+        PComparison pcomparisonNode2;
+        PStatement pstatementNode3;
+        pcomparisonNode2 = (PComparison)nodeArrayList2.get(0);
+        pstatementNode3 = (PStatement)nodeArrayList4.get(0);
 
-        pstatementNode1 = new AIfStatement(listNode3, tifNode4, pcomparisonNode5, tsemiNode6, pstatementNode7);
+        pstatementNode1 = new AWhileStatement(pcomparisonNode2, pstatementNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1238,25 +1202,19 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList5 = (ArrayList) pop();
         ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        TWhile twhileNode3;
-        PComparison pcomparisonNode4;
-        TSemi tsemiNode5;
-        PStatement pstatementNode6;
-        {
-        }
-        twhileNode3 = (TWhile)nodeArrayList1.get(0);
-        pcomparisonNode4 = (PComparison)nodeArrayList2.get(0);
-        tsemiNode5 = (TSemi)nodeArrayList3.get(0);
-        pstatementNode6 = (PStatement)nodeArrayList4.get(0);
+        PComparison pcomparisonNode2;
+        PStatement pstatementNode3;
+        pcomparisonNode2 = (PComparison)nodeArrayList3.get(0);
+        pstatementNode3 = (PStatement)nodeArrayList5.get(0);
 
-        pstatementNode1 = new AWhileStatement(listNode2, twhileNode3, pcomparisonNode4, tsemiNode5, pstatementNode6);
+        pstatementNode1 = new AWhileStatement(pcomparisonNode2, pstatementNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1268,43 +1226,6 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList5 = (ArrayList) pop();
-        ArrayList nodeArrayList4 = (ArrayList) pop();
-        ArrayList nodeArrayList3 = (ArrayList) pop();
-        ArrayList nodeArrayList2 = (ArrayList) pop();
-        ArrayList nodeArrayList1 = (ArrayList) pop();
-        PStatement pstatementNode1;
-        {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        TWhile twhileNode4;
-        PComparison pcomparisonNode5;
-        TSemi tsemiNode6;
-        PStatement pstatementNode7;
-        {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
-	{
-	  listNode3.addAll(listNode2);
-	}
-        }
-        twhileNode4 = (TWhile)nodeArrayList2.get(0);
-        pcomparisonNode5 = (PComparison)nodeArrayList3.get(0);
-        tsemiNode6 = (TSemi)nodeArrayList4.get(0);
-        pstatementNode7 = (PStatement)nodeArrayList5.get(0);
-
-        pstatementNode1 = new AWhileStatement(listNode3, twhileNode4, pcomparisonNode5, tsemiNode6, pstatementNode7);
-        }
-	nodeList.add(pstatementNode1);
-        return nodeList;
-    }
-
-
-
-    ArrayList new18()
-    {
-        ArrayList nodeList = new ArrayList();
-
         ArrayList nodeArrayList6 = (ArrayList) pop();
         ArrayList nodeArrayList5 = (ArrayList) pop();
         ArrayList nodeArrayList4 = (ArrayList) pop();
@@ -1313,23 +1234,14 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        TFor tforNode3;
-        PIdentifier pidentifierNode4;
-        TIn tinNode5;
-        PIdentifier pidentifierNode6;
-        TSemi tsemiNode7;
-        PStatement pstatementNode8;
-        {
-        }
-        tforNode3 = (TFor)nodeArrayList1.get(0);
-        pidentifierNode4 = (PIdentifier)nodeArrayList2.get(0);
-        tinNode5 = (TIn)nodeArrayList3.get(0);
-        pidentifierNode6 = (PIdentifier)nodeArrayList4.get(0);
-        tsemiNode7 = (TSemi)nodeArrayList5.get(0);
-        pstatementNode8 = (PStatement)nodeArrayList6.get(0);
+        TId tidNode2;
+        TId tidNode3;
+        PStatement pstatementNode4;
+        tidNode2 = (TId)nodeArrayList2.get(0);
+        tidNode3 = (TId)nodeArrayList4.get(0);
+        pstatementNode4 = (PStatement)nodeArrayList6.get(0);
 
-        pstatementNode1 = new AForStatement(listNode2, tforNode3, pidentifierNode4, tinNode5, pidentifierNode6, tsemiNode7, pstatementNode8);
+        pstatementNode1 = new AForStatement(tidNode2, tidNode3, pstatementNode4);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1337,7 +1249,7 @@ public class Parser
 
 
 
-    ArrayList new19()
+    ArrayList new18()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -1350,29 +1262,33 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        TFor tforNode4;
-        PIdentifier pidentifierNode5;
-        TIn tinNode6;
-        PIdentifier pidentifierNode7;
-        TSemi tsemiNode8;
-        PStatement pstatementNode9;
-        {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
-	{
-	  listNode3.addAll(listNode2);
-	}
-        }
-        tforNode4 = (TFor)nodeArrayList2.get(0);
-        pidentifierNode5 = (PIdentifier)nodeArrayList3.get(0);
-        tinNode6 = (TIn)nodeArrayList4.get(0);
-        pidentifierNode7 = (PIdentifier)nodeArrayList5.get(0);
-        tsemiNode8 = (TSemi)nodeArrayList6.get(0);
-        pstatementNode9 = (PStatement)nodeArrayList7.get(0);
+        TId tidNode2;
+        TId tidNode3;
+        PStatement pstatementNode4;
+        tidNode2 = (TId)nodeArrayList3.get(0);
+        tidNode3 = (TId)nodeArrayList5.get(0);
+        pstatementNode4 = (PStatement)nodeArrayList7.get(0);
 
-        pstatementNode1 = new AForStatement(listNode3, tforNode4, pidentifierNode5, tinNode6, pidentifierNode7, tsemiNode8, pstatementNode9);
+        pstatementNode1 = new AForStatement(tidNode2, tidNode3, pstatementNode4);
+        }
+	nodeList.add(pstatementNode1);
+        return nodeList;
+    }
+
+
+
+    ArrayList new19()
+    {
+        ArrayList nodeList = new ArrayList();
+
+        ArrayList nodeArrayList2 = (ArrayList) pop();
+        ArrayList nodeArrayList1 = (ArrayList) pop();
+        PStatement pstatementNode1;
+        {
+        PExpression pexpressionNode2;
+        pexpressionNode2 = (PExpression)nodeArrayList2.get(0);
+
+        pstatementNode1 = new AReturnStatement(pexpressionNode2);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1384,19 +1300,15 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        TReturn treturnNode3;
-        PExpression pexpressionNode4;
-        {
-        }
-        treturnNode3 = (TReturn)nodeArrayList1.get(0);
-        pexpressionNode4 = (PExpression)nodeArrayList2.get(0);
+        PExpression pexpressionNode2;
+        pexpressionNode2 = (PExpression)nodeArrayList3.get(0);
 
-        pstatementNode1 = new AReturnStatement(listNode2, treturnNode3, pexpressionNode4);
+        pstatementNode1 = new AReturnStatement(pexpressionNode2);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1408,26 +1320,17 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
+        PExpression pexpressionNode2;
         TypedLinkedList listNode3 = new TypedLinkedList();
-        TReturn treturnNode4;
-        PExpression pexpressionNode5;
+        pexpressionNode2 = (PExpression)nodeArrayList2.get(0);
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
-	{
-	  listNode3.addAll(listNode2);
-	}
         }
-        treturnNode4 = (TReturn)nodeArrayList2.get(0);
-        pexpressionNode5 = (PExpression)nodeArrayList3.get(0);
 
-        pstatementNode1 = new AReturnStatement(listNode3, treturnNode4, pexpressionNode5);
+        pstatementNode1 = new APrintStatement(pexpressionNode2, listNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1439,22 +1342,18 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        TPrint tprintNode3;
-        PExpression pexpressionNode4;
-        TypedLinkedList listNode5 = new TypedLinkedList();
-        {
-        }
-        tprintNode3 = (TPrint)nodeArrayList1.get(0);
-        pexpressionNode4 = (PExpression)nodeArrayList2.get(0);
+        PExpression pexpressionNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        pexpressionNode2 = (PExpression)nodeArrayList3.get(0);
         {
         }
 
-        pstatementNode1 = new APrintStatement(listNode2, tprintNode3, pexpressionNode4, listNode5);
+        pstatementNode1 = new APrintStatement(pexpressionNode2, listNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1471,24 +1370,19 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        TPrint tprintNode4;
-        PExpression pexpressionNode5;
-        TypedLinkedList listNode6 = new TypedLinkedList();
+        PExpression pexpressionNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        pexpressionNode2 = (PExpression)nodeArrayList2.get(0);
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        listNode3 = (TypedLinkedList)nodeArrayList3.get(0);
+	if(listNode3 != null)
 	{
-	  listNode3.addAll(listNode2);
+	  listNode4.addAll(listNode3);
 	}
         }
-        tprintNode4 = (TPrint)nodeArrayList2.get(0);
-        pexpressionNode5 = (PExpression)nodeArrayList3.get(0);
-        {
-        }
 
-        pstatementNode1 = new APrintStatement(listNode3, tprintNode4, pexpressionNode5, listNode6);
+        pstatementNode1 = new APrintStatement(pexpressionNode2, listNode4);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1500,29 +1394,25 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        TPrint tprintNode3;
-        PExpression pexpressionNode4;
-        TypedLinkedList listNode6 = new TypedLinkedList();
+        PExpression pexpressionNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        pexpressionNode2 = (PExpression)nodeArrayList3.get(0);
         {
-        }
-        tprintNode3 = (TPrint)nodeArrayList1.get(0);
-        pexpressionNode4 = (PExpression)nodeArrayList2.get(0);
-        {
-        TypedLinkedList listNode5 = new TypedLinkedList();
-        listNode5 = (TypedLinkedList)nodeArrayList3.get(0);
-	if(listNode5 != null)
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        listNode3 = (TypedLinkedList)nodeArrayList4.get(0);
+	if(listNode3 != null)
 	{
-	  listNode6.addAll(listNode5);
+	  listNode4.addAll(listNode3);
 	}
         }
 
-        pstatementNode1 = new APrintStatement(listNode2, tprintNode3, pexpressionNode4, listNode6);
+        pstatementNode1 = new APrintStatement(pexpressionNode2, listNode4);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1534,36 +1424,17 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        TPrint tprintNode4;
-        PExpression pexpressionNode5;
-        TypedLinkedList listNode7 = new TypedLinkedList();
-        {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
-	{
-	  listNode3.addAll(listNode2);
-	}
-        }
-        tprintNode4 = (TPrint)nodeArrayList2.get(0);
-        pexpressionNode5 = (PExpression)nodeArrayList3.get(0);
-        {
-        TypedLinkedList listNode6 = new TypedLinkedList();
-        listNode6 = (TypedLinkedList)nodeArrayList4.get(0);
-	if(listNode6 != null)
-	{
-	  listNode7.addAll(listNode6);
-	}
-        }
+        TId tidNode2;
+        PExpression pexpressionNode3;
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        pstatementNode1 = new APrintStatement(listNode3, tprintNode4, pexpressionNode5, listNode7);
+        pstatementNode1 = new AAllocation1Statement(tidNode2, pexpressionNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1575,22 +1446,18 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        PIdentifier pidentifierNode3;
-        TEq teqNode4;
-        PExpression pexpressionNode5;
-        {
-        }
-        pidentifierNode3 = (PIdentifier)nodeArrayList1.get(0);
-        teqNode4 = (TEq)nodeArrayList2.get(0);
-        pexpressionNode5 = (PExpression)nodeArrayList3.get(0);
+        TId tidNode2;
+        PExpression pexpressionNode3;
+        tidNode2 = (TId)nodeArrayList2.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList4.get(0);
 
-        pstatementNode1 = new AAllocation1Statement(listNode2, pidentifierNode3, teqNode4, pexpressionNode5);
+        pstatementNode1 = new AAllocation1Statement(tidNode2, pexpressionNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1602,40 +1469,6 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList4 = (ArrayList) pop();
-        ArrayList nodeArrayList3 = (ArrayList) pop();
-        ArrayList nodeArrayList2 = (ArrayList) pop();
-        ArrayList nodeArrayList1 = (ArrayList) pop();
-        PStatement pstatementNode1;
-        {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        PIdentifier pidentifierNode4;
-        TEq teqNode5;
-        PExpression pexpressionNode6;
-        {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
-	{
-	  listNode3.addAll(listNode2);
-	}
-        }
-        pidentifierNode4 = (PIdentifier)nodeArrayList2.get(0);
-        teqNode5 = (TEq)nodeArrayList3.get(0);
-        pexpressionNode6 = (PExpression)nodeArrayList4.get(0);
-
-        pstatementNode1 = new AAllocation1Statement(listNode3, pidentifierNode4, teqNode5, pexpressionNode6);
-        }
-	nodeList.add(pstatementNode1);
-        return nodeList;
-    }
-
-
-
-    ArrayList new28()
-    {
-        ArrayList nodeList = new ArrayList();
-
         ArrayList nodeArrayList6 = (ArrayList) pop();
         ArrayList nodeArrayList5 = (ArrayList) pop();
         ArrayList nodeArrayList4 = (ArrayList) pop();
@@ -1644,23 +1477,14 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        PIdentifier pidentifierNode3;
-        TLBr tlbrNode4;
-        PExpression pexpressionNode5;
-        TRBr trbrNode6;
-        TEq teqNode7;
-        PExpression pexpressionNode8;
-        {
-        }
-        pidentifierNode3 = (PIdentifier)nodeArrayList1.get(0);
-        tlbrNode4 = (TLBr)nodeArrayList2.get(0);
-        pexpressionNode5 = (PExpression)nodeArrayList3.get(0);
-        trbrNode6 = (TRBr)nodeArrayList4.get(0);
-        teqNode7 = (TEq)nodeArrayList5.get(0);
-        pexpressionNode8 = (PExpression)nodeArrayList6.get(0);
+        TId tidNode2;
+        PExpression pexpressionNode3;
+        PExpression pexpressionNode4;
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
+        pexpressionNode4 = (PExpression)nodeArrayList6.get(0);
 
-        pstatementNode1 = new AAllocation2Statement(listNode2, pidentifierNode3, tlbrNode4, pexpressionNode5, trbrNode6, teqNode7, pexpressionNode8);
+        pstatementNode1 = new AAllocation2Statement(tidNode2, pexpressionNode3, pexpressionNode4);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1668,7 +1492,7 @@ public class Parser
 
 
 
-    ArrayList new29()
+    ArrayList new28()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -1681,29 +1505,37 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        PIdentifier pidentifierNode4;
-        TLBr tlbrNode5;
-        PExpression pexpressionNode6;
-        TRBr trbrNode7;
-        TEq teqNode8;
-        PExpression pexpressionNode9;
-        {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
-	{
-	  listNode3.addAll(listNode2);
-	}
-        }
-        pidentifierNode4 = (PIdentifier)nodeArrayList2.get(0);
-        tlbrNode5 = (TLBr)nodeArrayList3.get(0);
-        pexpressionNode6 = (PExpression)nodeArrayList4.get(0);
-        trbrNode7 = (TRBr)nodeArrayList5.get(0);
-        teqNode8 = (TEq)nodeArrayList6.get(0);
-        pexpressionNode9 = (PExpression)nodeArrayList7.get(0);
+        TId tidNode2;
+        PExpression pexpressionNode3;
+        PExpression pexpressionNode4;
+        tidNode2 = (TId)nodeArrayList2.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList4.get(0);
+        pexpressionNode4 = (PExpression)nodeArrayList7.get(0);
 
-        pstatementNode1 = new AAllocation2Statement(listNode3, pidentifierNode4, tlbrNode5, pexpressionNode6, trbrNode7, teqNode8, pexpressionNode9);
+        pstatementNode1 = new AAllocation2Statement(tidNode2, pexpressionNode3, pexpressionNode4);
+        }
+	nodeList.add(pstatementNode1);
+        return nodeList;
+    }
+
+
+
+    ArrayList new29()
+    {
+        ArrayList nodeList = new ArrayList();
+
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
+        ArrayList nodeArrayList1 = (ArrayList) pop();
+        PStatement pstatementNode1;
+        {
+        TId tidNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        {
+        }
+
+        pstatementNode1 = new AFunctionCallStatement(tidNode2, listNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1715,16 +1547,19 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        PFunctionCall pfunctioncallNode3;
+        TId tidNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList2.get(0);
         {
         }
-        pfunctioncallNode3 = (PFunctionCall)nodeArrayList1.get(0);
 
-        pstatementNode1 = new AFunctioncallStatement(listNode2, pfunctioncallNode3);
+        pstatementNode1 = new AFunctionCallStatement(tidNode2, listNode3);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1736,23 +1571,25 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
+        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PStatement pstatementNode1;
         {
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        PFunctionCall pfunctioncallNode4;
+        TId tidNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
         {
-        TypedLinkedList listNode2 = new TypedLinkedList();
-        listNode2 = (TypedLinkedList)nodeArrayList1.get(0);
-	if(listNode2 != null)
+        PArgumentsList pargumentslistNode3;
+        pargumentslistNode3 = (PArgumentsList)nodeArrayList3.get(0);
+	if(pargumentslistNode3 != null)
 	{
-	  listNode3.addAll(listNode2);
+	  listNode4.add(pargumentslistNode3);
 	}
         }
-        pfunctioncallNode4 = (PFunctionCall)nodeArrayList2.get(0);
 
-        pstatementNode1 = new AFunctioncallStatement(listNode3, pfunctioncallNode4);
+        pstatementNode1 = new AFunctionCallStatement(tidNode2, listNode4);
         }
 	nodeList.add(pstatementNode1);
         return nodeList;
@@ -1764,15 +1601,28 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList5 = (ArrayList) pop();
+        ArrayList nodeArrayList4 = (ArrayList) pop();
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PMultiplication pmultiplicationNode1;
+        PStatement pstatementNode1;
         {
-        PSomething psomethingNode2;
-        psomethingNode2 = (PSomething)nodeArrayList1.get(0);
-
-        pmultiplicationNode1 = new ASomethingMultiplication(psomethingNode2);
+        TId tidNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList2.get(0);
+        {
+        PArgumentsList pargumentslistNode3;
+        pargumentslistNode3 = (PArgumentsList)nodeArrayList4.get(0);
+	if(pargumentslistNode3 != null)
+	{
+	  listNode4.add(pargumentslistNode3);
+	}
         }
-	nodeList.add(pmultiplicationNode1);
+
+        pstatementNode1 = new AFunctionCallStatement(tidNode2, listNode4);
+        }
+	nodeList.add(pstatementNode1);
         return nodeList;
     }
 
@@ -1782,21 +1632,16 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PMultiplication pmultiplicationNode1;
+        PAnotherExpression panotherexpressionNode1;
         {
-        PMultiplication pmultiplicationNode2;
-        TMult tmultNode3;
-        PSomething psomethingNode4;
-        pmultiplicationNode2 = (PMultiplication)nodeArrayList1.get(0);
-        tmultNode3 = (TMult)nodeArrayList2.get(0);
-        psomethingNode4 = (PSomething)nodeArrayList3.get(0);
+        PExpression pexpressionNode2;
+        pexpressionNode2 = (PExpression)nodeArrayList2.get(0);
 
-        pmultiplicationNode1 = new AMultiplicationMultiplication(pmultiplicationNode2, tmultNode3, psomethingNode4);
+        panotherexpressionNode1 = new AAnotherExpression(pexpressionNode2);
         }
-	nodeList.add(pmultiplicationNode1);
+	nodeList.add(panotherexpressionNode1);
         return nodeList;
     }
 
@@ -1806,21 +1651,10 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList3 = (ArrayList) pop();
-        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PMultiplication pmultiplicationNode1;
-        {
-        PMultiplication pmultiplicationNode2;
-        TDiv tdivNode3;
-        PSomething psomethingNode4;
-        pmultiplicationNode2 = (PMultiplication)nodeArrayList1.get(0);
-        tdivNode3 = (TDiv)nodeArrayList2.get(0);
-        psomethingNode4 = (PSomething)nodeArrayList3.get(0);
-
-        pmultiplicationNode1 = new ADivisionMultiplication(pmultiplicationNode2, tdivNode3, psomethingNode4);
-        }
-	nodeList.add(pmultiplicationNode1);
+        PExpression pexpressionNode1;
+        pexpressionNode1 = (PExpression)nodeArrayList1.get(0);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1830,15 +1664,19 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSomething psomethingNode1;
+        PExpression pexpressionNode1;
         {
-        PIdentifier pidentifierNode2;
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
+        PExpression pexpressionNode2;
+        PExpression pexpressionNode3;
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        psomethingNode1 = new AIdentifierSomething(pidentifierNode2);
+        pexpressionNode1 = new AAdditionExpression(pexpressionNode2, pexpressionNode3);
         }
-	nodeList.add(psomethingNode1);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1848,15 +1686,19 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSomething psomethingNode1;
+        PExpression pexpressionNode1;
         {
-        PValue pvalueNode2;
-        pvalueNode2 = (PValue)nodeArrayList1.get(0);
+        PExpression pexpressionNode2;
+        PExpression pexpressionNode3;
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        psomethingNode1 = new ANumberSomething(pvalueNode2);
+        pexpressionNode1 = new ASubtractionExpression(pexpressionNode2, pexpressionNode3);
         }
-	nodeList.add(psomethingNode1);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1867,14 +1709,9 @@ public class Parser
         ArrayList nodeList = new ArrayList();
 
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSomething psomethingNode1;
-        {
-        PFunctionCall pfunctioncallNode2;
-        pfunctioncallNode2 = (PFunctionCall)nodeArrayList1.get(0);
-
-        psomethingNode1 = new AFunctioncallSomething(pfunctioncallNode2);
-        }
-	nodeList.add(psomethingNode1);
+        PExpression pexpressionNode1;
+        pexpressionNode1 = (PExpression)nodeArrayList1.get(0);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1884,24 +1721,19 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSomething psomethingNode1;
+        PExpression pexpressionNode1;
         {
-        PIdentifier pidentifierNode2;
-        TLBr tlbrNode3;
-        PExpression pexpressionNode4;
-        TRBr trbrNode5;
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
-        tlbrNode3 = (TLBr)nodeArrayList2.get(0);
-        pexpressionNode4 = (PExpression)nodeArrayList3.get(0);
-        trbrNode5 = (TRBr)nodeArrayList4.get(0);
+        PExpression pexpressionNode2;
+        PExpression pexpressionNode3;
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        psomethingNode1 = new AExp2Something(pidentifierNode2, tlbrNode3, pexpressionNode4, trbrNode5);
+        pexpressionNode1 = new AMultiplicationExpression(pexpressionNode2, pexpressionNode3);
         }
-	nodeList.add(psomethingNode1);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1914,21 +1746,16 @@ public class Parser
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSomething psomethingNode1;
+        PExpression pexpressionNode1;
         {
-        TLBr tlbrNode2;
-        PValue pvalueNode3;
-        TypedLinkedList listNode4 = new TypedLinkedList();
-        TRBr trbrNode5;
-        tlbrNode2 = (TLBr)nodeArrayList1.get(0);
-        pvalueNode3 = (PValue)nodeArrayList2.get(0);
-        {
-        }
-        trbrNode5 = (TRBr)nodeArrayList3.get(0);
+        PExpression pexpressionNode2;
+        PExpression pexpressionNode3;
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        psomethingNode1 = new AExp3Something(tlbrNode2, pvalueNode3, listNode4, trbrNode5);
+        pexpressionNode1 = new ADivisionExpression(pexpressionNode2, pexpressionNode3);
         }
-	nodeList.add(psomethingNode1);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1938,31 +1765,15 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList4 = (ArrayList) pop();
-        ArrayList nodeArrayList3 = (ArrayList) pop();
-        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSomething psomethingNode1;
+        PExpression pexpressionNode1;
         {
-        TLBr tlbrNode2;
-        PValue pvalueNode3;
-        TypedLinkedList listNode5 = new TypedLinkedList();
-        TRBr trbrNode6;
-        tlbrNode2 = (TLBr)nodeArrayList1.get(0);
-        pvalueNode3 = (PValue)nodeArrayList2.get(0);
-        {
-        TypedLinkedList listNode4 = new TypedLinkedList();
-        listNode4 = (TypedLinkedList)nodeArrayList3.get(0);
-	if(listNode4 != null)
-	{
-	  listNode5.addAll(listNode4);
-	}
-        }
-        trbrNode6 = (TRBr)nodeArrayList4.get(0);
+        TId tidNode2;
+        tidNode2 = (TId)nodeArrayList1.get(0);
 
-        psomethingNode1 = new AExp3Something(tlbrNode2, pvalueNode3, listNode5, trbrNode6);
+        pexpressionNode1 = new AIdentifierExpression(tidNode2);
         }
-	nodeList.add(psomethingNode1);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1972,21 +1783,15 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList3 = (ArrayList) pop();
-        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSomething psomethingNode1;
+        PExpression pexpressionNode1;
         {
-        TLPar tlparNode2;
-        PExpression pexpressionNode3;
-        TRPar trparNode4;
-        tlparNode2 = (TLPar)nodeArrayList1.get(0);
-        pexpressionNode3 = (PExpression)nodeArrayList2.get(0);
-        trparNode4 = (TRPar)nodeArrayList3.get(0);
+        PValue pvalueNode2;
+        pvalueNode2 = (PValue)nodeArrayList1.get(0);
 
-        psomethingNode1 = new AParSomething(tlparNode2, pexpressionNode3, trparNode4);
+        pexpressionNode1 = new AValueExpression(pvalueNode2);
         }
-	nodeList.add(psomethingNode1);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -1996,18 +1801,20 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PCval pcvalNode1;
+        PExpression pexpressionNode1;
         {
-        TComma tcommaNode2;
-        PValue pvalueNode3;
-        tcommaNode2 = (TComma)nodeArrayList1.get(0);
-        pvalueNode3 = (PValue)nodeArrayList2.get(0);
-
-        pcvalNode1 = new ACval(tcommaNode2, pvalueNode3);
+        TId tidNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        {
         }
-	nodeList.add(pcvalNode1);
+
+        pexpressionNode1 = new AFunctionCallExpression(tidNode2, listNode3);
+        }
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -2017,13 +1824,25 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PExpression pexpressionNode1;
         {
-        PMultiplication pmultiplicationNode2;
-        pmultiplicationNode2 = (PMultiplication)nodeArrayList1.get(0);
+        TId tidNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        {
+        PArgumentsList pargumentslistNode3;
+        pargumentslistNode3 = (PArgumentsList)nodeArrayList3.get(0);
+	if(pargumentslistNode3 != null)
+	{
+	  listNode4.add(pargumentslistNode3);
+	}
+        }
 
-        pexpressionNode1 = new AMultiplicationExpression(pmultiplicationNode2);
+        pexpressionNode1 = new AFunctionCallExpression(tidNode2, listNode4);
         }
 	nodeList.add(pexpressionNode1);
         return nodeList;
@@ -2035,19 +1854,18 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
         ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PExpression pexpressionNode1;
         {
-        PExpression pexpressionNode2;
-        TPlus tplusNode3;
-        PMultiplication pmultiplicationNode4;
-        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
-        tplusNode3 = (TPlus)nodeArrayList2.get(0);
-        pmultiplicationNode4 = (PMultiplication)nodeArrayList3.get(0);
+        TId tidNode2;
+        PExpression pexpressionNode3;
+        tidNode2 = (TId)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        pexpressionNode1 = new AAdditionExpression(pexpressionNode2, tplusNode3, pmultiplicationNode4);
+        pexpressionNode1 = new AIdParExpression(tidNode2, pexpressionNode3);
         }
 	nodeList.add(pexpressionNode1);
         return nodeList;
@@ -2064,14 +1882,13 @@ public class Parser
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PExpression pexpressionNode1;
         {
-        PExpression pexpressionNode2;
-        TMinus tminusNode3;
-        PMultiplication pmultiplicationNode4;
-        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
-        tminusNode3 = (TMinus)nodeArrayList2.get(0);
-        pmultiplicationNode4 = (PMultiplication)nodeArrayList3.get(0);
+        PValue pvalueNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        pvalueNode2 = (PValue)nodeArrayList2.get(0);
+        {
+        }
 
-        pexpressionNode1 = new ASubtractionExpression(pexpressionNode2, tminusNode3, pmultiplicationNode4);
+        pexpressionNode1 = new AParValuesExpression(pvalueNode2, listNode3);
         }
 	nodeList.add(pexpressionNode1);
         return nodeList;
@@ -2083,15 +1900,27 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList4 = (ArrayList) pop();
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSymb psymbNode1;
+        PExpression pexpressionNode1;
         {
-        TGreat tgreatNode2;
-        tgreatNode2 = (TGreat)nodeArrayList1.get(0);
-
-        psymbNode1 = new AGreatSymb(tgreatNode2);
+        PValue pvalueNode2;
+        TypedLinkedList listNode4 = new TypedLinkedList();
+        pvalueNode2 = (PValue)nodeArrayList2.get(0);
+        {
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        listNode3 = (TypedLinkedList)nodeArrayList3.get(0);
+	if(listNode3 != null)
+	{
+	  listNode4.addAll(listNode3);
+	}
         }
-	nodeList.add(psymbNode1);
+
+        pexpressionNode1 = new AParValuesExpression(pvalueNode2, listNode4);
+        }
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -2101,15 +1930,17 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSymb psymbNode1;
+        PExpression pexpressionNode1;
         {
-        TLess tlessNode2;
-        tlessNode2 = (TLess)nodeArrayList1.get(0);
+        PExpression pexpressionNode2;
+        pexpressionNode2 = (PExpression)nodeArrayList2.get(0);
 
-        psymbNode1 = new ALessSymb(tlessNode2);
+        pexpressionNode1 = new AParExpression(pexpressionNode2);
         }
-	nodeList.add(psymbNode1);
+	nodeList.add(pexpressionNode1);
         return nodeList;
     }
 
@@ -2119,15 +1950,16 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSymb psymbNode1;
+        PAnotherValue panothervalueNode1;
         {
-        TNeq tneqNode2;
-        tneqNode2 = (TNeq)nodeArrayList1.get(0);
+        PValue pvalueNode2;
+        pvalueNode2 = (PValue)nodeArrayList2.get(0);
 
-        psymbNode1 = new ANeqSymb(tneqNode2);
+        panothervalueNode1 = new AAnotherValue(pvalueNode2);
         }
-	nodeList.add(psymbNode1);
+	nodeList.add(panothervalueNode1);
         return nodeList;
     }
 
@@ -2137,15 +1969,19 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PSymb psymbNode1;
+        PComparison pcomparisonNode1;
         {
-        TCeq tceqNode2;
-        tceqNode2 = (TCeq)nodeArrayList1.get(0);
+        PExpression pexpressionNode2;
+        PExpression pexpressionNode3;
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        psymbNode1 = new ACeqSymb(tceqNode2);
+        pcomparisonNode1 = new AGreatComparison(pexpressionNode2, pexpressionNode3);
         }
-	nodeList.add(psymbNode1);
+	nodeList.add(pcomparisonNode1);
         return nodeList;
     }
 
@@ -2161,13 +1997,11 @@ public class Parser
         PComparison pcomparisonNode1;
         {
         PExpression pexpressionNode2;
-        PSymb psymbNode3;
-        PExpression pexpressionNode4;
+        PExpression pexpressionNode3;
         pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
-        psymbNode3 = (PSymb)nodeArrayList2.get(0);
-        pexpressionNode4 = (PExpression)nodeArrayList3.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        pcomparisonNode1 = new ACompComparison(pexpressionNode2, psymbNode3, pexpressionNode4);
+        pcomparisonNode1 = new ALessComparison(pexpressionNode2, pexpressionNode3);
         }
 	nodeList.add(pcomparisonNode1);
         return nodeList;
@@ -2179,13 +2013,17 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PComparison pcomparisonNode1;
         {
-        TTrue ttrueNode2;
-        ttrueNode2 = (TTrue)nodeArrayList1.get(0);
+        PExpression pexpressionNode2;
+        PExpression pexpressionNode3;
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        pcomparisonNode1 = new ATrueComparison(ttrueNode2);
+        pcomparisonNode1 = new ANeqComparison(pexpressionNode2, pexpressionNode3);
         }
 	nodeList.add(pcomparisonNode1);
         return nodeList;
@@ -2197,13 +2035,17 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
+        ArrayList nodeArrayList3 = (ArrayList) pop();
+        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PComparison pcomparisonNode1;
         {
-        TFalse tfalseNode2;
-        tfalseNode2 = (TFalse)nodeArrayList1.get(0);
+        PExpression pexpressionNode2;
+        PExpression pexpressionNode3;
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        pexpressionNode3 = (PExpression)nodeArrayList3.get(0);
 
-        pcomparisonNode1 = new AFalseComparison(tfalseNode2);
+        pcomparisonNode1 = new ACeqComparison(pexpressionNode2, pexpressionNode3);
         }
 	nodeList.add(pcomparisonNode1);
         return nodeList;
@@ -2215,22 +2057,18 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList3 = (ArrayList) pop();
-        ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PFunctionCall pfunctioncallNode1;
+        PArgumentsList pargumentslistNode1;
         {
-        PIdentifier pidentifierNode2;
-        TLPar tlparNode3;
-        Object nullNode4 = null;
-        TRPar trparNode5;
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
-        tlparNode3 = (TLPar)nodeArrayList2.get(0);
-        trparNode5 = (TRPar)nodeArrayList3.get(0);
-
-        pfunctioncallNode1 = new AFunctioncallFunctionCall(pidentifierNode2, tlparNode3, null, trparNode5);
+        PExpression pexpressionNode2;
+        TypedLinkedList listNode3 = new TypedLinkedList();
+        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
+        {
         }
-	nodeList.add(pfunctioncallNode1);
+
+        pargumentslistNode1 = new AArgumentsList(pexpressionNode2, listNode3);
+        }
+	nodeList.add(pargumentslistNode1);
         return nodeList;
     }
 
@@ -2240,57 +2078,9 @@ public class Parser
     {
         ArrayList nodeList = new ArrayList();
 
-        ArrayList nodeArrayList4 = (ArrayList) pop();
-        ArrayList nodeArrayList3 = (ArrayList) pop();
         ArrayList nodeArrayList2 = (ArrayList) pop();
         ArrayList nodeArrayList1 = (ArrayList) pop();
-        PFunctionCall pfunctioncallNode1;
-        {
-        PIdentifier pidentifierNode2;
-        TLPar tlparNode3;
-        PArglist parglistNode4;
-        TRPar trparNode5;
-        pidentifierNode2 = (PIdentifier)nodeArrayList1.get(0);
-        tlparNode3 = (TLPar)nodeArrayList2.get(0);
-        parglistNode4 = (PArglist)nodeArrayList3.get(0);
-        trparNode5 = (TRPar)nodeArrayList4.get(0);
-
-        pfunctioncallNode1 = new AFunctioncallFunctionCall(pidentifierNode2, tlparNode3, parglistNode4, trparNode5);
-        }
-	nodeList.add(pfunctioncallNode1);
-        return nodeList;
-    }
-
-
-
-    ArrayList new55()
-    {
-        ArrayList nodeList = new ArrayList();
-
-        ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArglist parglistNode1;
-        {
-        PExpression pexpressionNode2;
-        TypedLinkedList listNode3 = new TypedLinkedList();
-        pexpressionNode2 = (PExpression)nodeArrayList1.get(0);
-        {
-        }
-
-        parglistNode1 = new AArgsArglist(pexpressionNode2, listNode3);
-        }
-	nodeList.add(parglistNode1);
-        return nodeList;
-    }
-
-
-
-    ArrayList new56()
-    {
-        ArrayList nodeList = new ArrayList();
-
-        ArrayList nodeArrayList2 = (ArrayList) pop();
-        ArrayList nodeArrayList1 = (ArrayList) pop();
-        PArglist parglistNode1;
+        PArgumentsList pargumentslistNode1;
         {
         PExpression pexpressionNode2;
         TypedLinkedList listNode4 = new TypedLinkedList();
@@ -2304,25 +2094,25 @@ public class Parser
 	}
         }
 
-        parglistNode1 = new AArgsArglist(pexpressionNode2, listNode4);
+        pargumentslistNode1 = new AArgumentsList(pexpressionNode2, listNode4);
         }
-	nodeList.add(parglistNode1);
+	nodeList.add(pargumentslistNode1);
         return nodeList;
     }
 
 
 
-    ArrayList new57()
+    ArrayList new55()
     {
         ArrayList nodeList = new ArrayList();
 
         ArrayList nodeArrayList1 = (ArrayList) pop();
         PValue pvalueNode1;
         {
-        PNumber pnumberNode2;
-        pnumberNode2 = (PNumber)nodeArrayList1.get(0);
+        TIntegerLiteral tintegerliteralNode2;
+        tintegerliteralNode2 = (TIntegerLiteral)nodeArrayList1.get(0);
 
-        pvalueNode1 = new ANumberValue(pnumberNode2);
+        pvalueNode1 = new ANumberValue(tintegerliteralNode2);
         }
 	nodeList.add(pvalueNode1);
         return nodeList;
@@ -2330,7 +2120,7 @@ public class Parser
 
 
 
-    ArrayList new58()
+    ArrayList new56()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2348,43 +2138,7 @@ public class Parser
 
 
 
-    ArrayList new59()
-    {
-        ArrayList nodeList = new ArrayList();
-
-        ArrayList nodeArrayList1 = (ArrayList) pop();
-        PNumber pnumberNode1;
-        {
-        TIntegerLiteral tintegerliteralNode2;
-        tintegerliteralNode2 = (TIntegerLiteral)nodeArrayList1.get(0);
-
-        pnumberNode1 = new AIntegerNumber(tintegerliteralNode2);
-        }
-	nodeList.add(pnumberNode1);
-        return nodeList;
-    }
-
-
-
-    ArrayList new60()
-    {
-        ArrayList nodeList = new ArrayList();
-
-        ArrayList nodeArrayList1 = (ArrayList) pop();
-        PIdentifier pidentifierNode1;
-        {
-        TId tidNode2;
-        tidNode2 = (TId)nodeArrayList1.get(0);
-
-        pidentifierNode1 = new AIdIdentifier(tidNode2);
-        }
-	nodeList.add(pidentifierNode1);
-        return nodeList;
-    }
-
-
-
-    ArrayList new61()
+    ArrayList new57()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2404,7 +2158,7 @@ public class Parser
 
 
 
-    ArrayList new62()
+    ArrayList new58()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2431,18 +2185,18 @@ public class Parser
 
 
 
-    ArrayList new63()
+    ArrayList new59()
     {
         ArrayList nodeList = new ArrayList();
 
         ArrayList nodeArrayList1 = (ArrayList) pop();
         TypedLinkedList listNode2 = new TypedLinkedList();
         {
-        PArg2 parg2Node1;
-        parg2Node1 = (PArg2)nodeArrayList1.get(0);
-	if(parg2Node1 != null)
+        PAnotherArgument panotherargumentNode1;
+        panotherargumentNode1 = (PAnotherArgument)nodeArrayList1.get(0);
+	if(panotherargumentNode1 != null)
 	{
-	  listNode2.add(parg2Node1);
+	  listNode2.add(panotherargumentNode1);
 	}
         }
 	nodeList.add(listNode2);
@@ -2451,7 +2205,7 @@ public class Parser
 
 
 
-    ArrayList new64()
+    ArrayList new60()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2460,16 +2214,16 @@ public class Parser
         TypedLinkedList listNode3 = new TypedLinkedList();
         {
         TypedLinkedList listNode1 = new TypedLinkedList();
-        PArg2 parg2Node2;
+        PAnotherArgument panotherargumentNode2;
         listNode1 = (TypedLinkedList)nodeArrayList1.get(0);
-        parg2Node2 = (PArg2)nodeArrayList2.get(0);
+        panotherargumentNode2 = (PAnotherArgument)nodeArrayList2.get(0);
 	if(listNode1 != null)
 	{
 	  listNode3.addAll(listNode1);
 	}
-	if(parg2Node2 != null)
+	if(panotherargumentNode2 != null)
 	{
-	  listNode3.add(parg2Node2);
+	  listNode3.add(panotherargumentNode2);
 	}
         }
 	nodeList.add(listNode3);
@@ -2478,7 +2232,7 @@ public class Parser
 
 
 
-    ArrayList new65()
+    ArrayList new61()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2498,7 +2252,7 @@ public class Parser
 
 
 
-    ArrayList new66()
+    ArrayList new62()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2525,18 +2279,18 @@ public class Parser
 
 
 
-    ArrayList new67()
+    ArrayList new63()
     {
         ArrayList nodeList = new ArrayList();
 
         ArrayList nodeArrayList1 = (ArrayList) pop();
         TypedLinkedList listNode2 = new TypedLinkedList();
         {
-        PCexp pcexpNode1;
-        pcexpNode1 = (PCexp)nodeArrayList1.get(0);
-	if(pcexpNode1 != null)
+        PAnotherExpression panotherexpressionNode1;
+        panotherexpressionNode1 = (PAnotherExpression)nodeArrayList1.get(0);
+	if(panotherexpressionNode1 != null)
 	{
-	  listNode2.add(pcexpNode1);
+	  listNode2.add(panotherexpressionNode1);
 	}
         }
 	nodeList.add(listNode2);
@@ -2545,7 +2299,7 @@ public class Parser
 
 
 
-    ArrayList new68()
+    ArrayList new64()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2554,16 +2308,16 @@ public class Parser
         TypedLinkedList listNode3 = new TypedLinkedList();
         {
         TypedLinkedList listNode1 = new TypedLinkedList();
-        PCexp pcexpNode2;
+        PAnotherExpression panotherexpressionNode2;
         listNode1 = (TypedLinkedList)nodeArrayList1.get(0);
-        pcexpNode2 = (PCexp)nodeArrayList2.get(0);
+        panotherexpressionNode2 = (PAnotherExpression)nodeArrayList2.get(0);
 	if(listNode1 != null)
 	{
 	  listNode3.addAll(listNode1);
 	}
-	if(pcexpNode2 != null)
+	if(panotherexpressionNode2 != null)
 	{
-	  listNode3.add(pcexpNode2);
+	  listNode3.add(panotherexpressionNode2);
 	}
         }
 	nodeList.add(listNode3);
@@ -2572,18 +2326,18 @@ public class Parser
 
 
 
-    ArrayList new69()
+    ArrayList new65()
     {
         ArrayList nodeList = new ArrayList();
 
         ArrayList nodeArrayList1 = (ArrayList) pop();
         TypedLinkedList listNode2 = new TypedLinkedList();
         {
-        PCval pcvalNode1;
-        pcvalNode1 = (PCval)nodeArrayList1.get(0);
-	if(pcvalNode1 != null)
+        PAnotherValue panothervalueNode1;
+        panothervalueNode1 = (PAnotherValue)nodeArrayList1.get(0);
+	if(panothervalueNode1 != null)
 	{
-	  listNode2.add(pcvalNode1);
+	  listNode2.add(panothervalueNode1);
 	}
         }
 	nodeList.add(listNode2);
@@ -2592,7 +2346,7 @@ public class Parser
 
 
 
-    ArrayList new70()
+    ArrayList new66()
     {
         ArrayList nodeList = new ArrayList();
 
@@ -2601,16 +2355,16 @@ public class Parser
         TypedLinkedList listNode3 = new TypedLinkedList();
         {
         TypedLinkedList listNode1 = new TypedLinkedList();
-        PCval pcvalNode2;
+        PAnotherValue panothervalueNode2;
         listNode1 = (TypedLinkedList)nodeArrayList1.get(0);
-        pcvalNode2 = (PCval)nodeArrayList2.get(0);
+        panothervalueNode2 = (PAnotherValue)nodeArrayList2.get(0);
 	if(listNode1 != null)
 	{
 	  listNode3.addAll(listNode1);
 	}
-	if(pcvalNode2 != null)
+	if(panothervalueNode2 != null)
 	{
-	  listNode3.add(pcvalNode2);
+	  listNode3.add(panothervalueNode2);
 	}
         }
 	nodeList.add(listNode3);
@@ -2621,188 +2375,185 @@ public class Parser
 
     private static int[][][] actionTable;
 /*      {
-			{{-1, REDUCE, 0}, {0, SHIFT, 1}, {9, SHIFT, 2}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, REDUCE, 65}, },
-			{{-1, ERROR, 2}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 3}, {10, SHIFT, 18}, {12, SHIFT, 19}, {29, SHIFT, 20}, {30, SHIFT, 21}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 4}, {10, SHIFT, 18}, {12, SHIFT, 19}, {29, SHIFT, 20}, {30, SHIFT, 21}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 5}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 6}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 7}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, REDUCE, 60}, },
-			{{-1, ERROR, 9}, {35, ACCEPT, -1}, },
+			{{-1, REDUCE, 0}, {0, SHIFT, 1}, {9, SHIFT, 2}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
 			{{-1, REDUCE, 61}, },
+			{{-1, ERROR, 2}, {30, SHIFT, 15}, },
+			{{-1, ERROR, 3}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 4}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 5}, {30, SHIFT, 27}, },
+			{{-1, ERROR, 6}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 7}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 8}, {5, SHIFT, 30}, {10, SHIFT, 31}, {12, SHIFT, 32}, },
+			{{-1, ERROR, 9}, {34, ACCEPT, -1}, },
+			{{-1, REDUCE, 57}, },
 			{{-1, REDUCE, 3}, },
 			{{-1, REDUCE, 2}, },
-			{{-1, REDUCE, 30}, },
-			{{-1, ERROR, 14}, {5, SHIFT, 36}, {10, SHIFT, 37}, {12, SHIFT, 38}, },
-			{{-1, REDUCE, 1}, {0, SHIFT, 1}, {9, SHIFT, 2}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 16}, {0, SHIFT, 40}, {19, SHIFT, 41}, {22, SHIFT, 42}, {23, SHIFT, 43}, {25, SHIFT, 44}, {26, SHIFT, 45}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 17}, {10, SHIFT, 48}, },
-			{{-1, ERROR, 18}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 19}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, REDUCE, 51}, },
-			{{-1, REDUCE, 52}, },
-			{{-1, REDUCE, 58}, },
-			{{-1, REDUCE, 59}, },
-			{{-1, REDUCE, 43}, {3, SHIFT, 51}, {4, SHIFT, 52}, },
-			{{-1, REDUCE, 32}, },
-			{{-1, ERROR, 26}, {1, SHIFT, 53}, {2, SHIFT, 54}, {6, SHIFT, 55}, {7, SHIFT, 56}, {27, SHIFT, 57}, {28, SHIFT, 58}, },
-			{{-1, ERROR, 27}, {17, SHIFT, 60}, },
+			{{-1, REDUCE, 1}, {0, SHIFT, 1}, {9, SHIFT, 2}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 14}, {0, SHIFT, 34}, {18, SHIFT, 35}, {21, SHIFT, 36}, {22, SHIFT, 37}, {24, SHIFT, 38}, {25, SHIFT, 39}, {30, SHIFT, 40}, },
+			{{-1, ERROR, 15}, {10, SHIFT, 41}, },
+			{{-1, ERROR, 16}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 17}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, REDUCE, 40}, {10, SHIFT, 44}, {12, SHIFT, 45}, },
+			{{-1, REDUCE, 56}, },
+			{{-1, REDUCE, 55}, },
+			{{-1, ERROR, 21}, {1, SHIFT, 46}, {2, SHIFT, 47}, {6, SHIFT, 48}, {7, SHIFT, 49}, {26, SHIFT, 50}, {27, SHIFT, 51}, },
+			{{-1, REDUCE, 34}, {3, SHIFT, 52}, {4, SHIFT, 53}, },
 			{{-1, REDUCE, 37}, },
-			{{-1, REDUCE, 36}, },
-			{{-1, REDUCE, 57}, },
-			{{-1, REDUCE, 35}, {10, SHIFT, 37}, {12, SHIFT, 61}, },
-			{{-1, ERROR, 32}, {17, SHIFT, 62}, },
-			{{-1, ERROR, 33}, {24, SHIFT, 63}, },
-			{{-1, REDUCE, 22}, {1, SHIFT, 53}, {2, SHIFT, 54}, {14, SHIFT, 64}, },
-			{{-1, REDUCE, 20}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
-			{{-1, ERROR, 36}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 37}, {10, SHIFT, 18}, {11, SHIFT, 68}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 38}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, REDUCE, 62}, },
-			{{-1, REDUCE, 66}, },
-			{{-1, ERROR, 41}, {10, SHIFT, 18}, {12, SHIFT, 19}, {29, SHIFT, 20}, {30, SHIFT, 21}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 42}, {10, SHIFT, 18}, {12, SHIFT, 19}, {29, SHIFT, 20}, {30, SHIFT, 21}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 43}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 44}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 45}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, REDUCE, 31}, },
-			{{-1, ERROR, 47}, {5, SHIFT, 77}, {10, SHIFT, 37}, {12, SHIFT, 78}, },
-			{{-1, ERROR, 48}, {11, SHIFT, 79}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 49}, {1, SHIFT, 53}, {2, SHIFT, 54}, {11, SHIFT, 82}, },
-			{{-1, ERROR, 50}, {13, SHIFT, 83}, {14, SHIFT, 84}, },
-			{{-1, ERROR, 51}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 52}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 53}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 54}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, REDUCE, 48}, },
-			{{-1, REDUCE, 49}, },
-			{{-1, REDUCE, 47}, },
-			{{-1, REDUCE, 46}, },
-			{{-1, ERROR, 59}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 60}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 61}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 62}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 63}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 64}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, REDUCE, 67}, },
-			{{-1, REDUCE, 24}, {14, SHIFT, 64}, },
-			{{-1, REDUCE, 26}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
-			{{-1, REDUCE, 53}, },
-			{{-1, REDUCE, 55}, {1, SHIFT, 53}, {2, SHIFT, 54}, {14, SHIFT, 64}, },
-			{{-1, ERROR, 70}, {11, SHIFT, 99}, },
-			{{-1, ERROR, 71}, {1, SHIFT, 53}, {2, SHIFT, 54}, {13, SHIFT, 100}, },
-			{{-1, ERROR, 72}, {17, SHIFT, 101}, },
-			{{-1, ERROR, 73}, {17, SHIFT, 102}, },
-			{{-1, ERROR, 74}, {24, SHIFT, 103}, },
-			{{-1, REDUCE, 23}, {1, SHIFT, 53}, {2, SHIFT, 54}, {14, SHIFT, 64}, },
-			{{-1, REDUCE, 21}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
-			{{-1, ERROR, 77}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 78}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 79}, {17, SHIFT, 107}, },
-			{{-1, ERROR, 80}, {11, SHIFT, 108}, },
-			{{-1, REDUCE, 9}, {5, SHIFT, 109}, {14, SHIFT, 110}, },
+			{{-1, ERROR, 24}, {17, SHIFT, 54}, },
 			{{-1, REDUCE, 41}, },
-			{{-1, REDUCE, 39}, },
-			{{-1, ERROR, 84}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, REDUCE, 69}, },
-			{{-1, ERROR, 86}, {13, SHIFT, 115}, {14, SHIFT, 84}, },
-			{{-1, REDUCE, 33}, },
-			{{-1, REDUCE, 34}, },
-			{{-1, REDUCE, 44}, {3, SHIFT, 51}, {4, SHIFT, 52}, },
-			{{-1, REDUCE, 45}, {3, SHIFT, 51}, {4, SHIFT, 52}, },
-			{{-1, REDUCE, 50}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
-			{{-1, REDUCE, 14}, },
-			{{-1, ERROR, 93}, {1, SHIFT, 53}, {2, SHIFT, 54}, {13, SHIFT, 117}, },
-			{{-1, REDUCE, 16}, },
-			{{-1, ERROR, 95}, {17, SHIFT, 118}, },
-			{{-1, REDUCE, 13}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
-			{{-1, REDUCE, 68}, },
-			{{-1, REDUCE, 56}, {14, SHIFT, 64}, },
-			{{-1, REDUCE, 54}, },
-			{{-1, ERROR, 100}, {5, SHIFT, 119}, },
-			{{-1, ERROR, 101}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 102}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 103}, {31, SHIFT, 8}, },
-			{{-1, REDUCE, 25}, {14, SHIFT, 64}, },
-			{{-1, REDUCE, 27}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
-			{{-1, ERROR, 106}, {1, SHIFT, 53}, {2, SHIFT, 54}, {13, SHIFT, 123}, },
-			{{-1, ERROR, 107}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 108}, {17, SHIFT, 125}, },
-			{{-1, ERROR, 109}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
-			{{-1, ERROR, 110}, {31, SHIFT, 8}, },
-			{{-1, REDUCE, 10}, {14, SHIFT, 110}, },
+			{{-1, ERROR, 26}, {17, SHIFT, 55}, },
+			{{-1, ERROR, 27}, {23, SHIFT, 56}, },
+			{{-1, REDUCE, 21}, {1, SHIFT, 46}, {2, SHIFT, 47}, {14, SHIFT, 57}, },
+			{{-1, REDUCE, 19}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, ERROR, 30}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 31}, {10, SHIFT, 16}, {11, SHIFT, 61}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 32}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, REDUCE, 58}, },
+			{{-1, REDUCE, 62}, },
+			{{-1, ERROR, 35}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 36}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 37}, {30, SHIFT, 67}, },
+			{{-1, ERROR, 38}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 39}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 40}, {5, SHIFT, 70}, {10, SHIFT, 71}, {12, SHIFT, 72}, },
+			{{-1, ERROR, 41}, {11, SHIFT, 73}, {30, SHIFT, 74}, },
+			{{-1, ERROR, 42}, {1, SHIFT, 46}, {2, SHIFT, 47}, {11, SHIFT, 76}, },
+			{{-1, ERROR, 43}, {13, SHIFT, 77}, {14, SHIFT, 78}, },
+			{{-1, ERROR, 44}, {10, SHIFT, 16}, {11, SHIFT, 81}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 45}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 46}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 47}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 48}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 49}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 50}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 51}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 52}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 53}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 54}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 55}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 56}, {30, SHIFT, 94}, },
+			{{-1, ERROR, 57}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
 			{{-1, REDUCE, 63}, },
-			{{-1, REDUCE, 11}, {14, SHIFT, 110}, },
+			{{-1, REDUCE, 23}, {14, SHIFT, 57}, },
+			{{-1, REDUCE, 25}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, REDUCE, 29}, },
+			{{-1, REDUCE, 53}, {1, SHIFT, 46}, {2, SHIFT, 47}, {14, SHIFT, 57}, },
+			{{-1, ERROR, 63}, {11, SHIFT, 98}, },
+			{{-1, ERROR, 64}, {1, SHIFT, 46}, {2, SHIFT, 47}, {13, SHIFT, 99}, },
+			{{-1, ERROR, 65}, {17, SHIFT, 100}, },
+			{{-1, ERROR, 66}, {17, SHIFT, 101}, },
+			{{-1, ERROR, 67}, {23, SHIFT, 102}, },
+			{{-1, REDUCE, 22}, {1, SHIFT, 46}, {2, SHIFT, 47}, {14, SHIFT, 57}, },
+			{{-1, REDUCE, 20}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, ERROR, 70}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 71}, {10, SHIFT, 16}, {11, SHIFT, 105}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 72}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 73}, {17, SHIFT, 108}, },
+			{{-1, REDUCE, 6}, {5, SHIFT, 109}, {14, SHIFT, 110}, },
+			{{-1, ERROR, 75}, {11, SHIFT, 114}, },
+			{{-1, REDUCE, 47}, },
+			{{-1, REDUCE, 45}, },
+			{{-1, ERROR, 78}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, REDUCE, 65}, },
+			{{-1, ERROR, 80}, {13, SHIFT, 116}, {14, SHIFT, 78}, },
 			{{-1, REDUCE, 42}, },
-			{{-1, REDUCE, 40}, },
-			{{-1, REDUCE, 70}, },
+			{{-1, ERROR, 82}, {11, SHIFT, 118}, },
+			{{-1, ERROR, 83}, {1, SHIFT, 46}, {2, SHIFT, 47}, {13, SHIFT, 119}, },
+			{{-1, REDUCE, 35}, {3, SHIFT, 52}, {4, SHIFT, 53}, },
+			{{-1, REDUCE, 36}, {3, SHIFT, 52}, {4, SHIFT, 53}, },
+			{{-1, REDUCE, 51}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, REDUCE, 52}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, REDUCE, 50}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, REDUCE, 49}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
 			{{-1, REDUCE, 38}, },
-			{{-1, ERROR, 118}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 119}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
+			{{-1, REDUCE, 39}, },
+			{{-1, REDUCE, 13}, },
 			{{-1, REDUCE, 15}, },
-			{{-1, REDUCE, 17}, },
-			{{-1, ERROR, 122}, {17, SHIFT, 132}, },
-			{{-1, ERROR, 123}, {5, SHIFT, 133}, },
-			{{-1, REDUCE, 4}, },
-			{{-1, ERROR, 125}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, REDUCE, 6}, },
-			{{-1, REDUCE, 7}, {5, SHIFT, 109}, },
-			{{-1, REDUCE, 12}, {14, SHIFT, 110}, },
+			{{-1, ERROR, 94}, {17, SHIFT, 120}, },
+			{{-1, REDUCE, 33}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
 			{{-1, REDUCE, 64}, },
-			{{-1, REDUCE, 18}, },
-			{{-1, REDUCE, 28}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
-			{{-1, ERROR, 132}, {0, SHIFT, 1}, {19, SHIFT, 3}, {22, SHIFT, 4}, {23, SHIFT, 5}, {25, SHIFT, 6}, {26, SHIFT, 7}, {31, SHIFT, 8}, },
-			{{-1, ERROR, 133}, {10, SHIFT, 18}, {12, SHIFT, 19}, {31, SHIFT, 8}, {32, SHIFT, 22}, {33, SHIFT, 23}, },
+			{{-1, REDUCE, 54}, {14, SHIFT, 57}, },
+			{{-1, REDUCE, 31}, },
+			{{-1, ERROR, 99}, {5, SHIFT, 121}, },
+			{{-1, ERROR, 100}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 101}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 102}, {30, SHIFT, 124}, },
+			{{-1, REDUCE, 24}, {14, SHIFT, 57}, },
+			{{-1, REDUCE, 26}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, REDUCE, 30}, },
+			{{-1, ERROR, 106}, {11, SHIFT, 125}, },
+			{{-1, ERROR, 107}, {1, SHIFT, 46}, {2, SHIFT, 47}, {13, SHIFT, 126}, },
+			{{-1, ERROR, 108}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 109}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, ERROR, 110}, {30, SHIFT, 129}, },
+			{{-1, REDUCE, 7}, {14, SHIFT, 110}, },
+			{{-1, REDUCE, 59}, },
+			{{-1, REDUCE, 8}, {14, SHIFT, 110}, },
+			{{-1, ERROR, 114}, {17, SHIFT, 132}, },
+			{{-1, REDUCE, 48}, },
+			{{-1, REDUCE, 46}, },
+			{{-1, REDUCE, 66}, },
+			{{-1, REDUCE, 43}, },
+			{{-1, REDUCE, 44}, },
+			{{-1, ERROR, 120}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 121}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, REDUCE, 14}, },
+			{{-1, REDUCE, 16}, },
+			{{-1, ERROR, 124}, {17, SHIFT, 135}, },
+			{{-1, REDUCE, 32}, },
+			{{-1, ERROR, 126}, {5, SHIFT, 136}, },
+			{{-1, REDUCE, 4}, },
+			{{-1, REDUCE, 10}, },
+			{{-1, REDUCE, 11}, {5, SHIFT, 109}, },
+			{{-1, REDUCE, 9}, {14, SHIFT, 110}, },
+			{{-1, REDUCE, 60}, },
+			{{-1, ERROR, 132}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, REDUCE, 17}, },
+			{{-1, REDUCE, 27}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
+			{{-1, ERROR, 135}, {0, SHIFT, 1}, {18, SHIFT, 3}, {21, SHIFT, 4}, {22, SHIFT, 5}, {24, SHIFT, 6}, {25, SHIFT, 7}, {30, SHIFT, 8}, },
+			{{-1, ERROR, 136}, {10, SHIFT, 16}, {12, SHIFT, 17}, {30, SHIFT, 18}, {31, SHIFT, 19}, {32, SHIFT, 20}, },
+			{{-1, REDUCE, 12}, },
 			{{-1, REDUCE, 5}, },
-			{{-1, REDUCE, 8}, },
-			{{-1, REDUCE, 19}, },
-			{{-1, REDUCE, 29}, {1, SHIFT, 53}, {2, SHIFT, 54}, },
+			{{-1, REDUCE, 18}, },
+			{{-1, REDUCE, 28}, {1, SHIFT, 46}, {2, SHIFT, 47}, },
         };*/
     private static int[][][] gotoTable;
 /*      {
 			{{-1, 9}, },
-			{{-1, 10}, {15, 39}, },
+			{{-1, 10}, {13, 33}, },
 			{{-1, 11}, },
-			{{-1, 111}, {127, 135}, },
-			{{-1, 112}, {113, 129}, {128, 129}, },
+			{{-1, 75}, },
+			{{-1, 111}, {129, 137}, },
+			{{-1, 112}, {113, 131}, {130, 131}, },
+			{{-1, 12}, {54, 92}, {55, 93}, {100, 122}, {101, 123}, {108, 127}, {120, 133}, {132, 138}, {135, 139}, },
+			{{-1, 58}, {59, 96}, {97, 96}, {103, 96}, },
+			{{-1, 21}, {6, 28}, {7, 29}, {16, 42}, {30, 60}, {31, 62}, {32, 64}, {38, 68}, {39, 69}, {44, 62}, {45, 83}, {48, 86}, {49, 87}, {50, 88}, {51, 89}, {57, 95}, {70, 104}, {71, 62}, {72, 107}, {121, 134}, {136, 140}, },
+			{{-1, 22}, {46, 84}, {47, 85}, },
+			{{-1, 23}, {52, 90}, {53, 91}, },
+			{{-1, 79}, {80, 117}, },
+			{{-1, 24}, {4, 26}, {35, 65}, {36, 66}, },
+			{{-1, 63}, {44, 82}, {71, 106}, },
+			{{-1, 25}, {17, 43}, {78, 115}, {109, 128}, },
+			{{-1, 13}, },
+			{{-1, 113}, {111, 130}, },
+			{{-1, 14}, },
+			{{-1, 59}, {62, 97}, {68, 103}, },
 			{{-1, 80}, },
-			{{-1, 65}, {66, 97}, {98, 97}, {104, 97}, },
-			{{-1, 12}, {60, 92}, {62, 94}, {101, 120}, {102, 121}, {107, 124}, {118, 130}, {125, 134}, {132, 136}, },
-			{{-1, 24}, {53, 89}, {54, 90}, },
-			{{-1, 25}, {51, 87}, {52, 88}, },
-			{{-1, 85}, {86, 116}, },
-			{{-1, 26}, {6, 34}, {7, 35}, {18, 49}, {36, 67}, {37, 69}, {38, 71}, {44, 75}, {45, 76}, {59, 91}, {61, 93}, {64, 96}, {77, 105}, {78, 106}, {119, 131}, {133, 137}, },
-			{{-1, 59}, },
-			{{-1, 27}, {4, 32}, {41, 72}, {42, 73}, },
-			{{-1, 28}, {0, 13}, {15, 13}, {16, 46}, {60, 13}, {62, 13}, {101, 13}, {102, 13}, {107, 13}, {118, 13}, {125, 13}, {132, 13}, },
-			{{-1, 70}, },
-			{{-1, 29}, {19, 50}, {84, 114}, {109, 126}, },
-			{{-1, 30}, },
-			{{-1, 31}, {0, 14}, {2, 17}, {5, 33}, {15, 14}, {16, 47}, {43, 74}, {48, 81}, {60, 14}, {62, 14}, {63, 95}, {101, 14}, {102, 14}, {103, 122}, {107, 14}, {110, 127}, {118, 14}, {125, 14}, {132, 14}, },
-			{{-1, 15}, },
-			{{-1, 113}, {111, 128}, },
-			{{-1, 16}, },
-			{{-1, 66}, {69, 98}, {75, 104}, },
-			{{-1, 86}, },
         };*/
     private static String[] errorMessages;
 /*      {
 			"expecting: tab, 'def', 'if', 'while', 'for', 'print', 'return', id, EOF",
 			"expecting: tab, 'if', 'while', 'for', 'print', 'return', id",
 			"expecting: id",
-			"expecting: '(', '[', 'true', 'false', id, string literal, integer literal",
 			"expecting: '(', '[', id, string literal, integer literal",
-			"expecting: tab, '+', '-', '*', '/', '=', '!=', '==', 'def', '(', ')', '[', ']', ',', ':', 'if', 'while', 'for', 'in', 'print', 'return', '<', '>', id, EOF",
-			"expecting: EOF",
 			"expecting: '=', '(', '['",
+			"expecting: EOF",
 			"expecting: '('",
 			"expecting: string literal, integer literal",
-			"expecting: ':'",
+			"expecting: tab, '+', '-', '*', '/', '!=', '==', 'def', '(', ')', '[', ']', ',', ':', 'if', 'while', 'for', 'print', 'return', '<', '>', id, EOF",
 			"expecting: tab, '+', '-', '*', '/', '!=', '==', 'def', ')', ']', ',', ':', 'if', 'while', 'for', 'print', 'return', '<', '>', id, EOF",
 			"expecting: '+', '-', '!=', '==', '<', '>'",
-			"expecting: tab, '+', '-', '*', '/', '!=', '==', 'def', '(', ')', '[', ']', ',', ':', 'if', 'while', 'for', 'print', 'return', '<', '>', id, EOF",
+			"expecting: ':'",
 			"expecting: 'in'",
 			"expecting: tab, '+', '-', 'def', ',', 'if', 'while', 'for', 'print', 'return', id, EOF",
 			"expecting: tab, '+', '-', 'def', 'if', 'while', 'for', 'print', 'return', id, EOF",
@@ -2823,6 +2574,6 @@ public class Parser
         };*/
     private static int[] errors;
 /*      {
-			0, 1, 2, 3, 3, 2, 4, 4, 5, 6, 0, 0, 0, 0, 7, 0, 1, 8, 4, 9, 10, 10, 11, 11, 11, 11, 12, 10, 11, 11, 11, 13, 10, 14, 15, 16, 4, 17, 4, 0, 1, 3, 3, 2, 4, 4, 0, 7, 18, 19, 20, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 4, 1, 2, 4, 21, 22, 16, 11, 23, 24, 25, 10, 10, 14, 15, 16, 4, 4, 10, 24, 26, 11, 11, 9, 20, 20, 11, 11, 11, 11, 27, 0, 25, 0, 10, 28, 21, 29, 11, 30, 1, 1, 2, 22, 16, 25, 1, 10, 9, 2, 29, 29, 29, 20, 11, 20, 11, 1, 4, 0, 0, 10, 30, 0, 1, 29, 26, 29, 29, 0, 16, 1, 4, 0, 29, 0, 16, 
+			0, 1, 2, 3, 3, 2, 3, 3, 4, 5, 0, 0, 0, 0, 1, 6, 3, 7, 8, 9, 9, 10, 9, 9, 11, 9, 11, 12, 13, 14, 3, 15, 3, 0, 1, 3, 3, 2, 3, 3, 4, 16, 17, 18, 15, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 2, 3, 19, 20, 14, 0, 21, 22, 23, 11, 11, 12, 13, 14, 3, 15, 3, 11, 24, 22, 9, 9, 7, 18, 18, 9, 22, 23, 9, 9, 25, 25, 25, 25, 9, 9, 0, 0, 11, 26, 19, 27, 0, 28, 1, 1, 2, 20, 14, 0, 22, 23, 1, 7, 2, 27, 27, 27, 11, 18, 9, 18, 9, 9, 1, 3, 0, 0, 11, 0, 28, 0, 27, 24, 27, 27, 1, 0, 14, 1, 3, 27, 0, 0, 14, 
         };*/
 }

@@ -5,46 +5,51 @@ package minipython.node;
 import java.util.*;
 import minipython.analysis.*;
 
-public final class AIfStatement extends PStatement
+public final class AForStatement extends PStatement
 {
-    private PComparison _comparison_;
+    private TId _first_;
+    private TId _second_;
     private PStatement _statement_;
 
-    public AIfStatement()
+    public AForStatement()
     {
     }
 
-    public AIfStatement(
-        PComparison _comparison_,
+    public AForStatement(
+        TId _first_,
+        TId _second_,
         PStatement _statement_)
     {
-        setComparison(_comparison_);
+        setFirst(_first_);
+
+        setSecond(_second_);
 
         setStatement(_statement_);
 
     }
     public Object clone()
     {
-        return new AIfStatement(
-            (PComparison) cloneNode(_comparison_),
+        return new AForStatement(
+            (TId) cloneNode(_first_),
+            (TId) cloneNode(_second_),
             (PStatement) cloneNode(_statement_));
     }
 
     public void apply(Switch sw)
     {
-        ((Analysis) sw).caseAIfStatement(this);
+        ((Analysis) sw).caseAForStatement(this);
     }
 
-    public PComparison getComparison()
+    public TId getFirst()
     {
-        return _comparison_;
+        return _first_;
     }
 
-    public void setComparison(PComparison node)
+    public void setFirst(TId node)
     {
-        if(_comparison_ != null)
+        if(_first_ != null)
         {
-            _comparison_.parent(null);
+            _first_.parent(null);
         }
 
         if(node != null)
@@ -57,7 +62,32 @@ public final class AIfStatement extends PStatement
             node.parent(this);
         }
 
-        _comparison_ = node;
+        _first_ = node;
+    }
+
+    public TId getSecond()
+    {
+        return _second_;
+    }
+
+    public void setSecond(TId node)
+    {
+        if(_second_ != null)
+        {
+            _second_.parent(null);
+        }
+
+        if(node != null)
+        {
+            if(node.parent() != null)
+            {
+                node.parent().removeChild(node);
+            }
+
+            node.parent(this);
+        }
+
+        _second_ = node;
     }
 
     public PStatement getStatement()
@@ -88,15 +118,22 @@ public final class AIfStatement extends PStatement
     public String toString()
     {
         return ""
-            + toString(_comparison_)
+            + toString(_first_)
+            + toString(_second_)
             + toString(_statement_);
     }
 
     void removeChild(Node child)
     {
-        if(_comparison_ == child)
+        if(_first_ == child)
         {
-            _comparison_ = null;
+            _first_ = null;
+            return;
+        }
+
+        if(_second_ == child)
+        {
+            _second_ = null;
             return;
         }
 
@@ -110,9 +147,15 @@ public final class AIfStatement extends PStatement
 
     void replaceChild(Node oldChild, Node newChild)
     {
-        if(_comparison_ == oldChild)
+        if(_first_ == oldChild)
         {
-            setComparison((PComparison) newChild);
+            setFirst((TId) newChild);
+            return;
+        }
+
+        if(_second_ == oldChild)
+        {
+            setSecond((TId) newChild);
             return;
         }
 

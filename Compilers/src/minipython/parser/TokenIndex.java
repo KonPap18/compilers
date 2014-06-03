@@ -99,93 +99,88 @@ class TokenIndex extends AnalysisAdapter
         index = 17;
     }
 
-    public void caseTQuote(TQuote node)
+    public void caseTIf(TIf node)
     {
         index = 18;
     }
 
-    public void caseTIf(TIf node)
+    public void caseTElif(TElif node)
     {
         index = 19;
     }
 
-    public void caseTElif(TElif node)
+    public void caseTElse(TElse node)
     {
         index = 20;
     }
 
-    public void caseTElse(TElse node)
+    public void caseTWhile(TWhile node)
     {
         index = 21;
     }
 
-    public void caseTWhile(TWhile node)
+    public void caseTFor(TFor node)
     {
         index = 22;
     }
 
-    public void caseTFor(TFor node)
+    public void caseTIn(TIn node)
     {
         index = 23;
     }
 
-    public void caseTIn(TIn node)
+    public void caseTPrint(TPrint node)
     {
         index = 24;
     }
 
-    public void caseTPrint(TPrint node)
+    public void caseTReturn(TReturn node)
     {
         index = 25;
     }
 
-    public void caseTReturn(TReturn node)
+    public void caseTLess(TLess node)
     {
         index = 26;
     }
 
-    public void caseTLess(TLess node)
+    public void caseTGreat(TGreat node)
     {
         index = 27;
     }
 
-    public void caseTGreat(TGreat node)
+    public void caseTTrue(TTrue node)
     {
         index = 28;
     }
 
-    public void caseTTrue(TTrue node)
+    public void caseTFalse(TFalse node)
     {
         index = 29;
     }
 
-    public void caseTFalse(TFalse node)
+    public void caseTId(TId node)
     {
         index = 30;
     }
 
-    public void caseTId(TId node)
+    public void caseTStringLiteral(TStringLiteral node)
     {
         index = 31;
     }
 
-    public void caseTStringLiteral(TStringLiteral node)
+    public void caseTIntegerLiteral(TIntegerLiteral node)
     {
         index = 32;
     }
 
-    public void caseTIntegerLiteral(TIntegerLiteral node)
+    public void caseTClass(TClass node)
     {
         index = 33;
     }
 
-    public void caseTClass(TClass node)
-    {
-        index = 34;
-    }
-
     public void caseEOF(EOF node)
     {
-        index = 35;
+        index = 34;
     }
 }

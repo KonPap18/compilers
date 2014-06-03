@@ -5,41 +5,41 @@ package minipython.node;
 import java.util.*;
 import minipython.analysis.*;
 
-public final class ATrueComparison extends PComparison
+public final class AAnotherValue extends PAnotherValue
 {
-    private TTrue _true_;
+    private PValue _value_;
 
-    public ATrueComparison()
+    public AAnotherValue()
     {
     }
 
-    public ATrueComparison(
-        TTrue _true_)
+    public AAnotherValue(
+        PValue _value_)
     {
-        setTrue(_true_);
+        setValue(_value_);
 
     }
     public Object clone()
     {
-        return new ATrueComparison(
-            (TTrue) cloneNode(_true_));
+        return new AAnotherValue(
+            (PValue) cloneNode(_value_));
     }
 
     public void apply(Switch sw)
     {
-        ((Analysis) sw).caseATrueComparison(this);
+        ((Analysis) sw).caseAAnotherValue(this);
     }
 
-    public TTrue getTrue()
+    public PValue getValue()
     {
-        return _true_;
+        return _value_;
     }
 
-    public void setTrue(TTrue node)
+    public void setValue(PValue node)
     {
-        if(_true_ != null)
+        if(_value_ != null)
         {
-            _true_.parent(null);
+            _value_.parent(null);
         }
 
         if(node != null)
@@ -52,20 +52,20 @@ public final class ATrueComparison extends PComparison
             node.parent(this);
         }
 
-        _true_ = node;
+        _value_ = node;
     }
 
     public String toString()
     {
         return ""
-            + toString(_true_);
+            + toString(_value_);
     }
 
     void removeChild(Node child)
     {
-        if(_true_ == child)
+        if(_value_ == child)
         {
-            _true_ = null;
+            _value_ = null;
             return;
         }
 
@@ -73,9 +73,9 @@ public final class ATrueComparison extends PComparison
 
     void replaceChild(Node oldChild, Node newChild)
     {
-        if(_true_ == oldChild)
+        if(_value_ == oldChild)
         {
-            setTrue((TTrue) newChild);
+            setValue((PValue) newChild);
             return;
         }
 

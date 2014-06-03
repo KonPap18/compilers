@@ -5,16 +5,16 @@ package minipython.node;
 import java.util.*;
 import minipython.analysis.*;
 
-public final class APrintStatement extends PStatement
+public final class AArgumentsList extends PArgumentsList
 {
     private PExpression _expression_;
     private final LinkedList _anotherExpression_ = new TypedLinkedList(new AnotherExpression_Cast());
 
-    public APrintStatement()
+    public AArgumentsList()
     {
     }
 
-    public APrintStatement(
+    public AArgumentsList(
         PExpression _expression_,
         List _anotherExpression_)
     {
@@ -28,14 +28,14 @@ public final class APrintStatement extends PStatement
     }
     public Object clone()
     {
-        return new APrintStatement(
+        return new AArgumentsList(
             (PExpression) cloneNode(_expression_),
             cloneList(_anotherExpression_));
     }
 
     public void apply(Switch sw)
     {
-        ((Analysis) sw).caseAPrintStatement(this);
+        ((Analysis) sw).caseAArgumentsList(this);
     }
 
     public PExpression getExpression()
@@ -130,15 +130,15 @@ public final class APrintStatement extends PStatement
             PAnotherExpression node = (PAnotherExpression) o;
 
             if((node.parent() != null) &&
-                (node.parent() != APrintStatement.this))
+                (node.parent() != AArgumentsList.this))
             {
                 node.parent().removeChild(node);
             }
 
             if((node.parent() == null) ||
-                (node.parent() != APrintStatement.this))
+                (node.parent() != AArgumentsList.this))
             {
-                node.parent(APrintStatement.this);
+                node.parent(AArgumentsList.this);
             }
 
             return node;
