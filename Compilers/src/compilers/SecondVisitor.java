@@ -19,18 +19,20 @@ public class SecondVisitor extends DepthFirstAdapter
         System.out.println("Total Errors: " + errors);
    }
     
-	public void inAFunctionCall(AFunctionCallExpression node)
+	public void inAFunctionCallStatement(AFunctionCallS node)
 	{
 		String fName = node.getId().toString().trim();
 		int line = ((TId) node.getId()).getLine();
 		int number_of_args = 0;
 		LinkedList arguments = node.getArgumentsList();
 		if(arguments.size()>0){
+			//System.out.println(arguments.size()+"arguments");
 			number_of_args += arguments.size();
 			AArgument args = (AArgument)arguments.getFirst();
 			LinkedList moreargs = args.getAnotherArgument();
 			if(moreargs.size()>0){
 				number_of_args += moreargs.size();
+				//System.out.println(moreargs.size()+"more args");
 			}
 		}
 		String function_key = fName + number_of_args;

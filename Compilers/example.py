@@ -1,7 +1,5 @@
 def add2():
     x=5
-def add2():
-    x=5
 def x(l):
 	y = 5
 

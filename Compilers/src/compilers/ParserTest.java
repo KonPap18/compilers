@@ -21,8 +21,7 @@ public class ParserTest
 
      SympolTable symtable =  new SympolTable();
      Start ast = parser.parse();
-     ast.apply(new FirstVisitor(symtable));
-    
+     ast.apply(new FirstVisitor(symtable));    
      System.out.println(args[0]);     
     ast.apply(new SecondVisitor(symtable));
     }
