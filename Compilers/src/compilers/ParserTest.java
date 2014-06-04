@@ -1,3 +1,4 @@
+
 package compilers;
 
 import java.io.*;
@@ -12,7 +13,7 @@ public class ParserTest
   {
     try
     {
-    	 System.out.println("in");
+    //	 System.out.println("in");
       Parser parser =
         new Parser(
         new Lexer(
@@ -22,8 +23,8 @@ public class ParserTest
      SympolTable symtable =  new SympolTable();
      Start ast = parser.parse();
      ast.apply(new FirstVisitor(symtable));    
-     System.out.println(args[0]);     
-    ast.apply(new SecondVisitor(symtable));
+    // System.out.println(args[0]);     
+   // ast.apply(new SecondVisitor(symtable));
     }
     catch (Exception e)
     {

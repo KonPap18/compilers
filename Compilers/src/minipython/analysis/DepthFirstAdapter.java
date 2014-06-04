@@ -25,6 +25,7 @@ public class DepthFirstAdapter extends AnalysisAdapter
     {
     }
 
+    
     public void caseStart(Start node)
     {
         inStart(node);

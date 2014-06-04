@@ -1,3 +1,4 @@
+
 package compilers;
 
 import java.io.*;
@@ -24,6 +25,7 @@ public class ASTTest
 
 //      System.out.println(ast);
     }
+    
     catch (Exception e)
     {
       System.err.println(e);
